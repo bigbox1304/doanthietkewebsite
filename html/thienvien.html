@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white ">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Thiền Viện Trúc Lâm Yên Tử</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Thiền Viện Trúc Lâm Yên Tử</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerthienvien.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Thiền Viện Trúc Lâm Yên Tử</h2>
+        <p>Thiền viện Trúc Lâm Yên Tử, còn gọi là Chùa Lân hay tên chữ là Long Động Tự là một ngôi chùa trên núi Yên Tử, thuộc địa phận thôn Nam Mẫu, xã Thượng Yên Công, thành phố Uông Bí, tỉnh Quảng Ninh, nằm trong Quần thể di tích danh thắng Yên Tử.Không chỉ là địa điểm du lịch nổi tiếng, Trúc Lâm Yên Tử còn là chốn tâm linh thanh tịnh nơi Phật hoàng Trần Nhân Tông thoát tục, tu hành.
+
+        </p>
+        <h2>Lịch sử Thiền viện Trúc Lâm Yên Tử</h2>
+        <p>Thiền viện Trúc Lâm Yên Tử hiện nay nằm trên núi Yên Tử thuộc xã Thượng Yên Công, Thành phố Uông Bí, Tỉnh Quảng Ninh. Thiền viện còn gọi là chùa Lân, được vua Trần Nhân Tông chọn làm nơi để tu hành. Vào năm 1293 ngài đã cho sửa sang lại tổng thể chùa Lân thêm trang trọng và uy nghiêm. Nơi đây vị Phật hoàng thường tụng kinh, giảng đạo cho chư tôn, tăng ni đến nghe.</p>
+        <p>Trần Nhân Tông kế vị vua Trần Thánh Tông lên ngôi năm 1278, ngay sau đó ông phải đối với sự hung hãn của quân phương Bắc do Hốt Tất Liệt thống lĩnh tấn công xâm lược Đại Việt. Dưới sự chỉ đạo của hai vị vua Trần và sự cầm quân tài ba của Hưng Đạo Đại vương Trần Quốc Tuấn, quân Nguyên – Mông đã bị đẩy lui. Đến năm 1287, quân Nguyên – Mông quay lại xâm lược lại một lần nữa hai vua Trần cùng Trần Quốc Tuấn tiếp tục lãnh đạo nhân dân Đại Việt đánh bại một trong những đội quân mạnh nhất thế giới nhất bấy giờ. Sau khi dẹp giặc, an dân vua Trần Nhân Tông truyền ngôi cho Thái tử Trần Thuyên, lên làm Thái Thượng Hoàng và bắt đầu đi tìm con đường chính đạo tu hành. Ông chính là vị tổ sáng tạo và xây dựng lên Thiền phái Trúc Lâm Yên Tử linh thiêng mang đậm chất văn hóa tôn giáo tín ngưỡng của người Việt.
+        </p>
+        <p>Cùng với Phật hoàng Trần Nhân Tông còn có hai vị thiền sư Pháp Loa và Huyền Quang là môn đệ cũng như người cùng sáng lập ra thiền phái. Năm 1304, Phật hoàng Trần Nhân Tông đi khắp mọi miền đất nước để thuyết giảng đạo, có chủ ý tìm truyền nhân cho tông phái của mình. Đúng lúc đó gặp được một cậu bé và nói “Đứa bé này có đạo nhãn, sau này hẳn là pháp khí” nên ngài đã thu nạp chỉ dẫn cho con đường tu tập. Đó chính là thiền sư Pháp Loa.</p>
+        <p>Còn đại thiền sư Huyền Quang là người học hành đỗ đạt cao, đỗ Trạng Nguyên và làm đến chức quan Hàn Lâm, được Phật hoàng Trần Nhân Tông dẫn đến nghe Pháp Loa giảng kinh mà nhớ lại duyên xưa với cửa phật nên ông chủ tâm xin xuất gia tu hành.
+        </p>
+        <p>Sau khi đức Phật hoàng quy tiên tại non Yên Tử linh thiêng, hai vị Đại thiền sư Pháp Loa và Đại thiền sư Huyền Quang đã tiếp nối và xây dựng Thiền phái Trúc Lâm Yên Tử ngày một phát triển. Thiền phái như một sợi chỉ đỏ chạy dọc chiều dài lịch sử triều đại nhà Trần, làm phong phú đời sống văn hóa tâm linh của người dân, khiến Phật giáo ngày càng hưng thịnh.
+
+          Thời gian con tạo xoay vần, một số kiến trúc nằm trong khuôn viên Trúc Lâm Yên Tử bị phá hủy vào giai đoạn kháng chiến chống Pháp, chỉ còn lại mộ tháp của các thiền sư. Tuy nhiên phải đến tận năm 2002 chùa Lân mới được xây dựng lại. Những viên đá, viên ngói, khối gỗ đầu tiên được bàn tay của những nghệ nhân kiến trúc cổ đặt trên nền đất diện tích gần 180.000 m2 đánh dấu một sự khôi phục quy mô lớn Trúc Lâm Yên Tử.</p>
+          <p>Hiện nay quần thể khu di tích thắng cảnh Trúc Lâm Yên Tử là một địa điểm tâm linh lớn nổi tiếng trong cả nước. Hằng năm đón hàng chục nghìn lượt khách tham quan, lễ phật, tìm về cõi linh thiêng thư thái.</p>
+          <h2>Kiến trúc độc đáo của thiền viện Trúc Lâm Yên Tử</h2>
+          <p>Đỉnh thiêng Yên Tử nằm trên độ cao khoảng 1068 m so với mực nước biển. Để lên tới đỉnh chùa bạn phải vượt qua hơn 6000 bậc đá, băng qua cánh rừng trúc, rừng thông cao ngút ngàn. Ngày nay phục vụ cho du lịch vãn cảnh ban quản lý đã đầu từ cho vận hành hai hệ thống cáp treo giúp đi lại nhanh và thuận tiện hơn.
+
+          </p>
+          <p>Nhìn chung kiến trúc các ngôi chùa ở Trúc Lâm Yên Tử được xem là chuẩn mực của kiến trúc phật giáo được dựng lại y nguyên theo mô phỏng ban đầu. Cổng Tam quan hai tầng tám mái cân xứng đứng uy nghi phía trên cao, bước lên các bậc đá qua cổng tam quan bán sẽ tiến vào sân chính, sân lát gạch đỏ. Mái chùa được lợp ngói vẩy uốn cong hình đầu đao hướng thẳng lên trời.
+
+          </p>
+          <p>Toàn bộ hệ thống cột cái, cột quân ở các chùa Yên Tử đều làm bằng gỗ lim quý, bên ngoài hàng cột hiên được dựng từ những cột đá chắc chắn. Bên dưới các cột đều có kè một phiến đá trong làm đế. Không phải tự nhiên lại có một phiến đá dưới chân các cột, đây được coi như một nét quy chuẩn trong kiến trúc tôn giao, tín ngưỡng ở Việt Nam có ý nghĩa riêng. Trong tín ngưỡng dân gian người Việt, hình ảnh cột đá, cột gỗ đặt trên một phiến đá chính là biểu tượng của tín ngưỡng phồn thực. Cột đá biểu trưng cho sinh thực khí của nam giới, phiến đá trong biểu trưng cho sinh thực khí của nữ giới. Hình tượng kết hợp này với mong ước con người phát triển, sinh sôi có cuộc sống an lành no đủ.
+
+          </p>
+          <p>Quanh gian chính điện được bao quanh bởi các cửa bức bàn bằng gỗ, phía trước có cửa ô chắn song con tiện giúp thoáng khí và lấy ánh sáng tự nhiên. Mỗi gian chùa được thiết kế vô cùng tinh tế, không gian luôn thoáng mát, mùa hè gió thông mát, mùa đông nhiệt độ ấm cúng bên trong. Để có được một không gian lý tưởng như vậy là do từ lúc thiết kế phải chọn hướng đặt chùa phù hợp với khí hậu của vùng đó. Thứ hai là chính bản thân kết cấu ngôi chùa đã làm tạo ra một sự điều hòa tự nhiên, gió có thể thông từ ô chắc song con tiện trước với chắc song con tiện phía sau và bên trên nóc chùa về hai phía luôn có ô sát mai hình tam giác cân thông gió.
+
+          </p>
+          <p>Một số ngôi chùa được xây mới có sử dụng chất liệu hiện đại nhưng nét kiến trúc vẫn đậm chất phật giáo. Bên trong chùa trang trí sơn son thiếp vàng lộng lẫy, các bức khảm, án thờ, cửa cánh võng được chạm khắc trang trí hoa giành sinh động. Cùng với đó là các tượng phật ở ngai Tam bảo, tượng La hán ở La hán đường, tượng phật Thích ca ngự chính điện, những nơi đó thường được bày biện trang trí các đồ thờ trông rất nguy nga hoành tráng. Không gian thơm phảng phất hương vòng bên trong khiến mọi người đều tĩnh tâm một lòng hướng đến cõi phật. Chính không gian đó đem đến cho con người có cảm giác an yên, thư thái, bỏ lại hết mọi sự xô bồ đằng sau.
+
+          </p>
+        <h2>Trúc Lâm Yên Tử – Danh thắng tâm linh của người Việt</h2>
+       <p>Trúc Lâm Yên Tử là một quần thể danh thắng rộng lớn với nhiều địa điểm tham quan. Trước khi lên Yên Tử bạn sẽ đi qua đền Trình, tạm dừng chân nghỉ ngơi chuẩn bị cho hành trình.</p>
+       <p>Thiền viện Trúc Lâm Yên Tử là một gian điện rộng lớn, nơi mà các sư thầy tu hanh, học kinh pháp nhà Phật. Nơi đây được ví như trường học của người tu hành, các vị sư được dạy đọc kinh, triết lý phật giáo, thuyết của thiền …</p>
+       <p>Còn rất nhiều địa điểm khác để bạn khám phá như: Chùa Hoa Yên, tháp Huệ Quang, chùa Một Mái, chùa Bảo Sái, chùa Vân Tiêu, chùa Đồng. Chùa Đồng là ngôi chùa cao nhất Yên Tử, toàn bộ các bộ phận ngôi chùa này đều được đúc bằng đồng thau. Đi lên Trúc Lâm Yên Tử chinh phục được chùa Đồng bằng cách đi bộ là cả một kỳ tích. Nơi đây rất linh thiêng, mọi người thường đến để cầu tài lộc, sức khỏe, sự an lạc thịnh vượng.</p> 
+       <h2>Thời gian lý tưởng ghé thăm</h2>
+       <p>Thời gian thích hợp nhất đi chùa Yên Tử lễ bái và vãn cảnh là khoảng tháng Giêng hàng năm. Vì đó là mùa lễ hội đầu xuân không khí tươi mới, cảnh vật tràn đầy sức sống, người dân nô nức đi trẩy hội.</p>
+     
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="dienbienphu.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="dinhdoclap.html">10</a></li>
+                        <li class="page-item"><a class="page-link" href="thienvien.html">11</a></li>
+                        <li class="page-item"><a class="page-link" href="hoguom.html">12</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="kiemlien.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

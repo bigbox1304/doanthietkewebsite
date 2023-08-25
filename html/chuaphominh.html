@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary">
+      <div class="container d-flex flex-wrap hideable" >
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Chùa Phổ Minh</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Chùa <br>Phổ Minh</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerphominh.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Chùa Phổ Minh </h2>
+        <p>Chùa Phổ Minh còn được gọi là chùa tháp Phổ Minh có địa chỉ ở thôn Tức Mặc, xã Lộc Vượng, Tp, Nam Định, tỉnh Nam Định là nơi lưu giữ những cổ vật quý dưới thời nhà Trần. Đây cung là ngôi chùa từng chứng kiến những chiến tích lịch sử hào hùng của dân tộc. Đặc biệt, chùa Phổ Minh từng xuất hiện trên mặt sau của tờ 100 đồng và được công nhận là di tích Quốc gia đặc biệt vào năm 2012. </p>
+    
+        
+        <h2>Lịch sử Chùa Phổ Minh</h2>
+        <p>Theo biên niên sử, chùa được xây dựng vào năm 1262, ở phía tây cung Trùng Quang của các vua nhà Trần. Nhưng theo các minh văn trên bia, trên chuông thì ngôi chùa này đã có từ thời nhà Lý. Có thể chùa đã được xây dựng lại với quy mô rộng lớn từ năm 1262. Tuy đã nhiều lần tu bổ nhưng chùa vẫn còn giữ được nhiều dấu tích nghệ thuật đời Trần.</p>
+        <h2>Kiến trúc Chùa Phổ Minh</h2>
+        <p>Cụm kiến trúc chính của chùa bao gồm 9 gian tiền đường, 3 gian thiêu hương, toà thượng điện cũng 3 gian nhưng rộng hơn, xếp theo hình chữ "công". Bộ cửa gian giữa nhà tiền đường gồm 4 cánh bằng gỗ lim, to dày, chạm rồng, sóng nước, hoa lá và văn hoa hình học. Hai cánh ở giữa chạm đôi rồng lớn chầu Mặt Trời trong khuôn hình lá đề, được coi là một tác phẩm điêu khắc khá hoàn mỹ. Cũng như đôi sấu đá trên thành bậc tam quan và đôi rồng trên thành bậc gian giữa tiền đường, bộ cánh cửa này còn giữ được những dấu ấn của nghệ thuật chạm khắc đời Trần.
+        </p>
+        <p>
+          Một số công trình kiến trúc bài trí khác đã làm tô thêm vẻ đẹp của chùa Phổ Minh, như 3 gian tam quan khung gỗ, tường gạch, mái ngói rêu phong, cổ kính với bức hoành phong đề 4 chữ lớn. "Đại hùng bảo điện" và thành bậc thềm ở chính giữa có chạm đôi sấu đá rất sống động, hai hồ tròn thả sen nằm đăng đối hai bên lối đi dẫn vào chùa.
+      </p>
+        <p>
+          Trong chùa có bày tượng Trần Nhân Tông nhập Niết bàn (tượng nằm); tượng Trúc Lâm Tam tổ dưới bóng cây trúc; một số tượng Phật đẹp lộng lẫy. Chuông lớn của chùa có khắc bản văn "Phổ Minh đỉnh tự" đúc năm 1796 - chùa vốn có một vạc lớn, sử sách coi là một trong bốn vật báu của Việt Nam (An Nam tứ đại khí) nhưng nay không còn.
+        </p>
+        <p>Sau thượng điện, cách một sân hẹp là ngôi nhà dài 11 gian. Ở giữa là 5 gian nhà tổ, bên trái là 3 gian nhà tăng và bên phải là 3 gian điện thờ. Hai dãy hành lang nối tiền đường ở phía trước với ngôi nhà 11 gian ở phía sau làm thành một khung vuông bao quanh kiến trúc chùa.</p>
+        <h2>Tháp Phổ Minh</h2>
+        <p>
+          Kiến trúc thời nhà Trần được bảo tồn khá nguyên vẹn ở đây là tháp Phổ Minh, dựng năm 1305. Tháp cao khoảng 20 m, gồm 14 tầng. Nền tháp và tầng thứ nhất xây bằng đá, những tầng còn lại phía trên xây bằng gạch. Tầng nào cũng trổ 4 cửa vòm cuốn, giữa các tầng là gờ mái... Tầng tháp thứ nhất đặt trên bệ đá, có hai lớp cánh sen, lớp dưới chúc xuống, lớp trên ngửa lên đỡ lấy tháp hình vuông, mỗi cạnh rộng hơn 5 mét. Bệ và tầng thứ nhất có những hình chạm nông trên mặt đá như hoa lá, sóng nước, mây cuốn, đặc trưng cho phong cách trang trí thời nhà Trần. Mặt ngoài những viên gạch các tầng trên được trang trí hình rồng.
+          </p>
+  
+        
+        <h2>Trong văn học, nghệ thuật</h2>
+        <p>Danh sĩ người xứ Đông Nguyễn Bỉnh Khiêm (1491–1585), sống thời Lê–Mạc, đồng thời là một cư sĩ tự nhận (Bạch Vân am cư sĩ), trong một lần qua vùng Sơn Nam Hạ vãn cảnh chùa Phổ Minh chừng hơn một thế kỷ sau loạn giặc Minh xâm lược qua đi, đã để lại bài thơ thất ngôn bát cú Du Phổ Minh tự được đưa vào tập thơ chữ Hán Bạch Vân am thi tập do chính ông đề tựa.</p>
+        <h2>Di chuyển đến Chùa Phổ Minh</h2>
+        <p>Chùa Phổ Minh Nam Định cách trung tâm thành phố khoảng 5km và cách Hà Nội khoảng 90km. Du lịch Nam Định để khám phá ngôi chùa này du khách có thể đi bằng xe khách tại bến xe Mỹ Đình, Gia Lâm, Giáp Bát với giá khoảng 100.000đ.lượt hoặc phượt bằng xe máy tới thành phố Nam Định. Đoạn từ quốc lộ 10 từ thành phố Nam Định đi Thái Bình khoảng 2km sẽ tới chùa Phổ Minh. </p>
+     
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="hoguom.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="kiemlien.html">13</a></li>
+                        <li class="page-item"><a class="page-link" href="langchutich.html">14</a></li>
+                        <li class="page-item"><a class="page-link" href="chuaphominh.html">15</a></li>
+                        <li class="page-item">
+                          <a class="page-link disabled" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white ">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Khu di tích lịch sử Kim Liên</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Khu di tích Kim Liên</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerkimlien.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu Khu di tích Kim Liên </h2>
+        <p>Đây chính là một trong những khu di tích lịch sử nhằm tưởng nhớ đến vị lãnh tụ vĩ đại Hồ Chí Minh. Khu di tích Kim Liên là nơi gắn liền với thời thơ ấu của Bác, nơi đây được công nhận là sự kiện quan trọng bậc nhất, gắn liền với sự nghiệp của chủ tịch Hồ Chí Minh. Đến đây, bạn không chỉ được tìm hiểu về lịch sử mà càng thêm yêu mến và kính trọng người cha già kính yêu của dân tộc.
+
+        </p>
+        
+        <h2>Đặc điểm</h2>
+        <p>Khu di tích Kim Liên là một trong bốn di tích quan trọng tại Việt Nam về Chủ tịch Hồ Chí Minh,[1] lưu giữ những hiện vật, tài liệu, không gian văn hóa - lịch sử về thời niên thiếu của Hồ Chí Minh và những người thân trong gia đình của Người. Toàn bộ khu di tích bao gồm nhà tranh nhỏ của cha mẹ Hồ chủ tịch (hai cụ Nguyễn Sinh Sắc và Hoàng Thị Loan); ngôi nhà của ông bà ngoại của Người; nhà thờ chi họ Hoàng Xuân (thuộc cụm di tích Hoàng Trù); nhà cụ Phó bảng Nguyễn Sinh Sắc; giếng Cốc; lò rèn Cố Điền; nhà cụ cử Vương Thúc Quý - thầy học khai tâm của Người; nhà thờ họ Nguyễn Sinh; nhà cụ Nguyễn Sinh Nhâm - ông nội của chủ tịch Hồ Chí Minh; di tích cây đa, sân vận động Làng Sen; khu trưng bày các hiện vật, tài liệu và nhà tưởng niệm Chủ tịch Hồ Chí Minh (thuộc cụm di tích Làng Sen); phần mộ cụ Hoàng Thị Loan ở Động Tranh trên dãy Đại Huệ và cụm di tích núi Chung. Toàn khu di tích rộng trên 205 ha, các điểm và cụm di tích cách nhau 2 – 10 km.</p>
+        <h2>Những địa điểm tham quan khi đến khu di tích Kim Liên</h2>
+        <p>Toàn bộ khu di tích lịch sử Kim Liên được chia thành bốn phân khu chính gồm quê nội bác làng Sen, quê ngoại làng Hoàng Trù, khu tưởng niệm Chủ tịch Hồ Chí Minh, khu trưng bày và phần mộ bà Hoàng Thị Loan - mẹ ruột bác. Mỗi người cũng di tích đều đem đến cho bạn những trải nghiệm khó quên.</p>
+        <p>Làng sen quê Bác thuộc địa phận của xã kim Liên huyện Nam đàn tỉnh Nghệ an tại mấy nơi bác từng sinh sống vẫn còn được lưu giữ nguyên vẹn như mâm gỗ sơn đen, chiếc tủ đứng, hai bộ phản gỗ giường,...</p>
+        <p>Đồ dùng này tuy đã cũ nhưng chứa đựng rất nhiều giá trị lịch sử to lớn giúp thế hệ đời sau hiểu rõ hơn về Người. Khi đến làng sen quê Bác bạn sẽ ấn tượng với những mùi thơm ngát của câu, hồ sen và không gian bình yên nơi đây.</p>
+        <p>Khu vực mộ của bà hoàng Thị loan nằm ở núi động tranh, dãy núi đại Huệ xã Nam Giang, huyện Nam Đàn tỉnh Nghệ An. Mộ được xây dựng từ những năm 1984 với hình dáng một khung cửi khổng lồ. Được biết hình dáng này biểu trưng cho người dệt vải và đây cũng là nghề mà bà đã làm để nuôi các con.</p>
+        <p>Xung quanh ngôi mộ được ốp bằng đá cẩm thạch, đá Hoa Cương và phía trên mái dốc được phủ những hòn đá tự nhiên rất nhiều hoa văn. Đến đây bạn có thể ngắm nhìn từ xa một phần nước non xứ nghệ.</p>
+        <p>Làng hoàng trù là quê ngoại của Bác Hồ nơi Bác được sinh ra và trải qua thời thơ ấu. Cũng di tích tại đây gồm ngôi nhà gia đình của Bác, Ông ngoại bác hồ là nhà cụ Hoàng Xuân Đường và nhà thờ chi họ Hoàng Xuân. Ngôi nhà gia đình Bác là mái nhà tranh đơn sơ 3 gian hai bên trên phên và những hàng cau xanh ngát phía ngoài.</p>
+        <p>Căn nhà vẫn lưu giữ nhiều kỷ vật giản dị từ thuở xa xưa như chiếc võng gai, bàn gỗ, khung cửi, bút nghiên,... vận đã bạc màu và sơn cũ theo thời gian khiến khi tới đây bạn sẽ tưởng nhớ được về cuộc sống tuổi thơ của Bác.</p>
+        <p>Khu trưng bày và nhà tưởng niệm của Bác thuộc khu di tích làng sen và được xây dựng vào những năm 1970. Nơi đây là bảo tàng đầu tiên trưng bày về các tiểu sử của Bác và sau này còn được bổ sung thêm các tài liệu, hiện vật khác. Tất cả giúp hoàn thiện mô hình bảo tàng di tích tưởng niệm thể hiện tình cảm thiêng liêng của đồng bào với Bác.  </p>
+        <h2>Cách di chuyển tới khu di tích Kim Liên</h2>
+        <p>
+          Tới khu di tích Kim Liên bạn có thể lựa chọn các loại xe như xe taxi, xe khách, xe buýt, xe cá nhân hay tàu hỏa. Nếu khi xuất phát từ Hà Nội hoặc từ thành phố Vinh bạn có thể đi theo lộ trình như sau:
+          <ul>
+            <li>Xuất phát từ Vinh: bạn sẽ đi theo quốc lộ 46 khi đến kilômét 13 rẽ trái. Sau đó tiếp tục đi khoảng 1km nữa là tới được di tích lịch sử Kim Liên.</li>
+            <li>Xuất phát từ Hà Nội: bạn sẽ đi theo của cô lộ 1A khi đến quốc lộ 46 thì đi thêm 7km nữa sẽ đến được khu di tích lịch sử Kim Liên.
+            </li>
+          </ul>
+        </p>
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="hoguom.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="kiemlien.html">13</a></li>
+                        <li class="page-item"><a class="page-link" href="langchutich.html">14</a></li>
+                        <li class="page-item"><a class="page-link" href="chuaphominh.html">15</a></li>
+                        <li class="page-item">
+                          <a class="page-link disabled" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

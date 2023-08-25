@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white ">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Lăng chủ tịch</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Lăng chủ tịch Hồ Chí Minh</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerlangchutich.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Lăng chủ tịch Hồ Chí Minh</h2>
+        <p>Lăng Chủ tịch Hồ Chí Minh, còn gọi là Lăng Hồ Chủ tịch, Lăng Bác, là nơi gìn giữ di hài Chủ tịch Hồ Chí Minh. Lăng được chính thức khởi công ngày 2 tháng 9 năm 1973, tại vị trí của lễ đài cũ giữa Quảng trường Ba Đình, nơi Hồ Chí Minh từng chủ trì các cuộc gặp mặt quan trọng</p>        
+        <h2>Những ngày đầu xây dựng</h2>
+        <p>Sau khi Chủ tịch Hồ Chí Minh qua đời, thể theo nguyện vọng thiết tha của toàn Đảng, toàn dân, toàn quân, ngày 29/11/1969, Bộ Chính trị quyết định: “Với tấm lòng kính yêu vô hạn và đời đời nhớ ơn Hồ Chủ tịch, chúng ta phải thực hiện đến mức tốt nhất nhiệm vụ giữ gìn lâu dài thi hài Hồ Chủ tịch và xây dựng Lăng của Người.” Nhiệm vụ thiêng liêng và trọng trách lớn lao đó được giao cho Quân đội mà trực tiếp là Bộ Tư lệnh Bảo vệ Lăng Chủ tịch Hồ Chí Minh.</p>
+        <p>Quyết định xây dựng Lăng Chủ tịch Hồ Chí Minh được lan truyền rất nhanh đến mọi tầng lớp nhân dân qua các phương tiện thông tin.</p>
+        <p>Một đợt sáng tác mẫu thiết kế Lăng Chủ tịch Hồ Chí Minh được phát động. Từ tháng 5 đến tháng 8/1970, Ban Tổ chức đã nhận được hơn 200 phương án thiết kế của 16 đơn vị, ngành và nhiều cá nhân gửi tới.
+
+        </p>
+        <p>Hội đồng sơ tuyển đã chọn được 24 phương án có nhiều ưu điểm nhất để triển lãm lấy ý kiến nhân dân từ tháng 9 đến tháng 11/1970 tại 5 địa điểm: Hà Nội, Hải Phòng, Nghệ An, Thái Nguyên, Sơn La.
+
+        </p>
+        <p>Từ ý kiến đóng góp của nhân dân, bản “Thiết kế sơ bộ” về Lăng Chủ tịch Hồ Chí Minh đã được hoàn chỉnh. Với sự giúp đỡ của Liên Xô, ngày 9/2/1971, Chính phủ hai nước đã ký kết Hiệp định Liên Xô giúp đỡ kỹ thuật cho Việt Nam giữ gìn thi hài Chủ tịch Hồ Chí Minh và xây dựng Lăng của Người.
+
+        </p>
+        <p>Ngày 2/9/1973, Lễ khởi công xây dựng Lăng Chủ tịch Hồ Chí Minh đã diễn ra tại Quảng trường Ba Đình lịch sử. Với tấm lòng biết ơn và kính yêu vô hạn Hồ Chủ tịch, toàn dân và toàn quân đã đem hết trí tuệ, tinh thần tập trung cao độ để xây dựng ngôi nhà vĩnh cửu của Người.
+
+        </p>
+        <p>Cả nước hướng về công trình xây dựng Lăng, như một tiếng gọi thiêng liêng của mỗi người dân, mỗi địa phương muốn dành những gì ưu tú nhất của quê hương để được dâng lên Người: Nhà máy Ximăng Hải Phòng đã sản xuất hàng vạn tấn xi măng có chất lượng tốt nhất, trên mỗi bao bì đều in đậm dòng chữ: “Đời đời nhớ ơn Chủ tịch Hồ Chí Minh vĩ đại.”
+
+        </p>
+        <p>Đồng bào, chiến sỹ miền Nam đã vượt bao khó khăn gian khổ của chiến tranh ác liệt, đi hàng ngàn cây số để đưa nhiều vật liệu quý từ Nam Bộ, Tây Nguyên về xây dựng Lăng...
+
+        </p>
+        <h2>Kiến trúc Lăng chủ tịch Hồ Chí Minh</h2>
+        <p>Lăng được khánh thành vào ngày 29 tháng 8 năm 1975, gồm 3 lớp với chiều cao 21,6 mét, chiều rộng 41,2 mét lớp dưới tạo dáng bậc thềm tam cấp, lớp giữa là kết cấu trung tâm của lăng gồm phòng thi hài và những hành lang, những cầu thang. Bên ngoài lăng được ốp bằng đá granite xám, bên trong làm bằng đá xám và đỏ đã được đánh bóng. Quanh bốn mặt là những hàng cột vuông bằng đá hoa cương, lớp trên cùng là mái lăng hình tam cấp. Ở mặt chính có dòng chữ: "CHỦ TỊCH HỒ-CHÍ-MINH" bằng đá hồng màu mận chín. Xung quanh lăng là các khu vườn nơi hơn 250 loài thực vật được trồng từ khắp mọi miền của Việt Nam.</p>
+        <h2>Những trải nghiệm hấp dẫn khi đến lăng Hồ Chủ tịch</h2>
+        <p>Đến thăm lăng Chủ tịch Hồ Chí Minh, bạn sẽ được phổ biến những quy định tham quan và hướng dẫn thực hiện các thủ tục như gửi đồ cá nhân, các thiết bị ghi hình, chụp ảnh và tắt điện thoại, đi qua cổng an ninh… </p>
+        <p>Sau khi hoàn tất thủ tục, bạn sẽ đến xếp hàng tại Quảng trường Ba Đình, chờ đến lượt tham quan. Đến lượt, bạn sẽ được vào lăng, đi qua một vòng ngắm nhìn không gian trang nghiêm và nơi yên nghỉ của Bác. Bạn lưu ý đi theo hàng như hướng dẫn và tuyệt đối không quay phim, chụp ảnh. </p>
+        <p>Quảng trường Ba Đình trước lăng Chủ tịch Hồ Chí Minh là nơi diễn ra nghi lễ thượng cờ Lăng Bác vào lúc 06h00 và lễ hạ cờ lúc 21h00 hàng ngày. Do đó, đến lăng vào những khung giờ này, bạn sẽ được chứng kiến nghi lễ quốc gia trang trọng được thực hiện bởi đội tiêu binh, chiến sĩ đội hồng kỳ và hình ảnh cờ đỏ, sao vàng tung bay trong tiếng Quốc ca hào hùng. Trong những ngày đặc biệt như lễ Quốc khánh và sinh nhật Bác, nghi lễ càng trở nên trọng đại và thiêng liêng.</p>
+        <p>Viếng lăng Bác, bạn sẽ được tận mắt chiêm ngưỡng công trình có kiến trúc vững chãi, trang nghiêm, có thể chống động đất 7 độ richter, bom đạn và lũ lụt. Cảnh quan xung quanh lăng xanh mát, hài hòa với muôn sắc hoa rực rỡ cũng sẽ để lại trong bạn nhiều ấn tượng khó quên.</p>
+        <p>Ngoài khu vực lăng và trước Quảng trường Ba Đình, bạn có thể tự do chụp hình, lưu giữ những kỷ niệm trong chuyến viếng lăng Chủ tịch Hồ Chí Minh. Khuôn viên lăng Bác còn có nhiều công trình ý nghĩa để bạn tham quan như: phủ Chủ tịch, ao cá Bác Hồ, khu nhà sàn, bảo tàng Hồ Chí Minh và chùa Một Cột. Tuy nhiên, bạn cần lưu ý không nên đến và chụp ảnh tại những khu vực có biển cấm.</p>
+        <h2>Những lưu ý cần thiết khi viếng Lăng Chủ tịch Hồ Chí Minh</h2>
+        <p>Lăng Chủ tịch Hồ Chí Minh là nơi trang nghiêm. Đối với mỗi con người Việt Nam, đây là nơi vô cùng thiêng liêng. Vì vậy, để thể hiện lòng thành kính, bạn cần lưu ý và tuân thủ những quy định sau để có được chuyến tham quan trọn vẹn nhất: 
+          <ul>
+          <li>Khi tham quan bạn cần có thái độ nghiêm túc, không đùa giỡn. Chú ý, trẻ 3 tuổi không được phép vào viếng lăng.</li>
+          <li>Trước khi vào viếng, bạn phải gửi hành lý và thực hiện kiểm tra an ninh. Bạn chỉ được mang theo ví, túi xách có chứa tiền, kim loại quý, điện thoại và máy ảnh nhỏ đã tắt nguồn. Máy ảnh chuyên dụng và máy quay phim không được phép mang vào.</li>
+          <li>Trên đường vào viếng lăng Chủ tịch Hồ Chí Minh, bạn hãy tuân theo hướng dẫn của Ban Tổ chức, không được phép chen lấn hay xô đẩy.</li>
+          <li>Khi đến trước cửa lăng, nếu có đội mũ, nón thì bạn hãy cầm bên tay phải và để phần lòng mũ, nón hướng ra ngoài.</li>
+          <li>Trong khi tham quan lăng, chú ý giữ yên tĩnh, không gây ồn ào ảnh hưởng đến xung quanh, không chạm vào tường, không để tay vào túi quần hay túi áo và không hút thuốc lá.</li>
+          <li>Tuyệt đối không quay phim, chụp ảnh hoặc vẽ khi tham quan phòng đặt thi hài Chủ tịch Hồ Chí Minh. Lưu ý không được phép đưa những hình ảnh trong lăng lên các phương tiện thông tin đại chúng.</li>
+          <li>Sau khi tham quan lăng Bác, bạn sẽ nhận lại đồ dùng đã gửi ở ngoài.</li>
+          <li>Viếng lăng Bác, bạn cần ăn mặc chỉnh tề, gọn gàng, lịch sự. Mặc dù không có quy định chính xác về trang phục mà du khách phải mặc tham quan, nhưng để thể hiện sự tôn trọng, bạn cần ăn mặc chỉnh chu, kín đáo,  tránh mặc trang phục quá ngắn, không phù hợp như quần short, váy ngắn, áo hai dây, áo hở lưng…</li>
+          </ul> 
+      </p>
+      <h2>Các phương tiện di chuyển đến Lăng Chủ tịch Hồ Chí Minh</h2>
+      <p>
+        Về vị trí, lăng Chủ tịch Hồ Chí Minh tọa lạc tại lễ đài cũ giữa Quảng trường Ba Đình. Đây là nơi Bác đã đọc Bản Tuyên ngôn độc lập vào ngày 02/9/1945. Để đến cổng vào lăng chủ tịch Hồ Chí Minh, bạn có thể dễ dàng di chuyển bằng nhiều phương tiện như: 
+
+
+        <ul>
+          <li>Xe đạp, xe máy, ô tô cá nhân: Bạn lưu ý gửi phương tiện tại điểm giữ xe trên đường Ông Ích Khiêm (đối diện Bộ Tư lệnh Bảo vệ Lăng) hoặc đường Ngọc Hà (cổng vào Bảo tàng Hồ Chí Minh).
+          </li>
+          <li>Xe buýt: Bạn đón xe buýt số 09, 22, 33, 45, 50 chạy ngang Quảng trường Ba Đình hoặc xe buýt hai tầng Hanoi City Tour.  Hiện nay, xe buýt 2 tầng Hà Nội có đi qua Lăng Bác. Với lộ trình di chuyển qua 25 tuyến phố, du lịch Hà Nội, bạn có thể chọn dịch vụ xe buýt 2 tầng để tham quan lăng Chủ tịch và khám phá toàn cảnh Thủ đô từ trên cao.
+          </li>
+          <li>Taxi: Taxi Xanh GSM là gợi ý lý tưởng giúp bạn thuận tiện, nhanh chóng đến thăm lăng Chủ tịch Hồ Chí Minh và được trải nghiệm hành trình di chuyển tốt nhất trong không gian mát mẻ, rộng thoáng và hiện đại của ô tô điện VinFast. Lựa chọn di chuyển bằng taxi Xanh SM, khách hàng không chỉ được trải nghiệm chất lượng dịch vụ khác biệt mà còn đang chung tay cùng hãng trong mục tiêu nỗ lực giảm thiểu phát thải từ phương tiện giao thông, bảo vệ môi trường.</li>
+        </ul>
+      </p>
+     
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="hoguom.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="kiemlien.html">13</a></li>
+                        <li class="page-item"><a class="page-link" href="langchutich.html">14</a></li>
+                        <li class="page-item"><a class="page-link" href="chuaphominh.html">15</a></li>
+                        <li class="page-item">
+                          <a class="page-link disabled" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

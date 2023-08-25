@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cố đô Huế</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Cố Đô Huế</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannercodohue.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Cố đô Huế </h2>
+        <p>Nhắc đến di tích lịch sử Việt Nam nổi tiếng thì chắc chắn không thể thiếu Cố Đô Huế. Không chỉ là một di tích lịch sử mà Cố Đô Huế còn được công nhận là di sản Văn Hoá thế giới, nơi có quy mô xây dựng rất lớn từ thời nhà Nguyễn. Do đó, nếu có thời gian, bạn hãy đến Cố Đô Huế để trải nghiệm nhé!</p>
+        
+        <h2> Lịch sử hình thành và phát triển của Cố đô Huế</h2>
+        <p>Trong khoảng thời gian đất nước ta bị chia cắt bởi “vua Lê, chúa Trịnh”, Cố đô Huế đã trở thành nơi ngự trị của 9 đời vua Nguyễn tại Đàng Trong. Được khởi công xây dựng từ những năm 1805 khi vua Gia Long còn trị vì và kéo dài suốt 27 năm bởi triều Nguyễn, Cố đô Huế là kinh đô của nhà Tây Sơn và nhà Nguyễn. 
+
+        </p>
+        <p>Được xây dựng theo phong cách Đông Tây hòa hợp, đem đến một công trình đồ sộ và vĩ đại biết bao. Vào lúc xây dựng, Cố đô đã trở thành tâm não quan trọng với vị trí chiến lược đắc địa xung quanh được bao bọc bởi các con đường đắc địa như Phan Đăng Lưu, Lê Duẩn, Trần Hưng Đạo. Trong suốt quá trình đó, Vua các triều luôn trùng tu, sửa chữa và thiết kế lại để dần dần trở thành một công trình mang đường nét văn hóa truyền thống Huế.
+
+        </p>
+        <p>Vào năm 1993, Quần thể di tích Cố đô Huế được công nhận là di sản văn hóa, minh chứng cho vẻ đẹp mang tính toàn cầu. Nơi đây không chỉ là một công trình được xây dựng lâu đời, mà còn là biểu tượng xứ Huế như những con người chất phác, chăm chỉ và kiên cường là biểu tượng của dân tộc Việt Nam
+
+        </p>
+        <h2>Không gian thiết kế độc đáo của Cố đô Huế</h2>
+        <p>Cố đô Huế có kết cấu gồm ba vòng thành: Tử Cấm Thành, Kinh Thành và Hoàng Thành. Công trình mang nét đẹp cổ kính nguy nga, được xây dựng với diện tích hơn 500 ha. Nơi đây là kinh thành cổ hiếm hoi còn giữ lại được nét đẹp ban đầu cùng các kiến trúc ban sơ như đền đài, cung điện, lăng tẩm,…
+
+        </p>
+        <p>Bước chân vào Cố đô Huế du khách sẽ không khỏi choáng ngợp bởi không gian cổ kính, bạn sẽ được hòa mình vào thời gian xa xưa, sống lại thời cung đình nguy nga tráng lệ. Đây là niềm tự hào to lớn của người Việt nói chung và người dân Huế nói riêng đối với bạn bè quốc tế.
+
+        </p>
+        <h2>Khám phá những điểm đến không thể bỏ lỡ tại Cố đô Huế</h2>
+        <p>Kinh thành Huế – Công trình vĩ đại của Cố đô Huế
+          <ul>
+            <li>Cổng Ngọ Môn – Kinh thành Cố đô Huế</li>
+            <li>Điện Thái Hòa – Kinh thành Cố đô Huế</li>
+            <li>Quốc Tử Giám – Kinh thành Cố đô Huế</li>
+            <li> Kỳ Đài – Kinh thành Cố đô Huế</li>
+            <li> Cửu Vị Thần Công – Kinh thành Cố đô Huế</li>
+          </ul>
+        </p>
+        <p>
+          Tử Cấm Thành – Công trình Hoàng gia Cố đô Huế
+          <ul>
+            <li>Đại Cung Môn</li>
+            <li>Tả Vu và Hữu Vu</li>
+            <li>Điện Cần Chánh </li>
+            <li>Điện Càn Thành</li>
+            <li>Điện Kiến Trung</li>
+            <li>Thái Bình Lâu</li>
+            <li>Nhật Thành Lâu</li>
+            <li>Duyệt Thị Đường</li>
+          </ul>
+        </p>
+        <p>
+          Các Lăng Tẩm điện
+          <ul>
+            <li>Lăng Gia Long</li>
+            <li> Lăng Minh Mạng</li>
+            <li>Lăng Tự Đức</li>
+            <li>Lăng Khải Định</li>
+          </ul>
+        </p>
+        <p>Cung An Định<br>Cung An Định nằm bên bờ dòng sông An Cựu, nơi đây đầu tiên dành cho vua Khải Định từ lúc làm thái tử, sau này được vua An Định thừa kế. Về thiết kế, công trình Cung An Định mang một phong cách cổ kính, nhẹ nhàng bởi vị trí thơ mộng. 
+
+        </p>
+        <p>Văn Miếu Huế<br>Văn Miếu Huế là một di tích thiêng liêng còn sót lại, được xây dựng bởi vị vua Gia Long vào những năm 1808. Nơi đây mang một không gian oai nghi, nghiêm nghị nằm bên bờ sông Hương. Du khách ghé đến Quần thể di tích Cố đô Huế có thể đến trải nghiệm thiết kế độc đáo này nhé. 
+
+        </p>
+        <p> Điện Hòn Chén<br>Điện Hòn Chén là ngôi điện thờ Thánh mẫu nằm ở triền núi, sở dĩ có tên gọi như vậy vì ngọn núi này có tên là Ngọc Trản, có nghĩa là chén ngọc. Nơi đây có khoảng 10 công trình kiến trúc được thiết kế bao bọc xung quanh. 
+
+        </p>
+        <p>Đàn Nam Giao<br>Xa xưa, mỗi mùa khô hạn hay lũ lụt cung đình luôn tổ chức những buổi lễ tế trời đất thường tổ chức vào đầu năm. Đàn Nam Giao là nơi linh thiêng được nhà Vua chọn để thực hiện các lễ tế. Cho đến ngày nay, Đàn Nam Giao là điểm check in với khung cảnh trong xanh, thơ mộng để du khách tham quan. Không gian nơi đây vừa thơ mộng, lãng mạn vừa đem đến một cảnh quan hoang sơ, bình yên. </p>
+        <p>Chùa Thiên Mụ<br>Chùa Thiên Mụ tại Cố đô Huế là một điểm đến không còn quá xa lạ đối với những ai yêu thích du lịch Huế. Nơi đây được khởi công xây dựng từ những năm 1601 của vị Chúa Đàng trong thời bấy giờ. Chùa Thiên Mụ còn được biết tới với tên là Chùa Linh Mụ, gắn liền với truyền thuyết được lưu truyền lâu đời vô cùng nổi tiếng.</p>
+        <p>Hiển Lâm Các<br>Được vua Minh Mạng cho khởi công xây dựng năm 1821, gấp rút hoàn thành trong vòng 1 năm với độ cao 17m. Hiển Lâm Các trở thành công trình kiến trúc cao nhất tại Kinh thành Huế. Nơi đây là tượng đài kỷ niệm ghi công ơn của những đại thần có công của đất nước.</p>
+        <h2>Cách di chuyển đến Cố đô Huế</h2>
+        <p>Di chuyển bằng máy bay: Tiện lợi và nhanh chóng trong mỗi chuyến du lịch, du khách khi đến Huế đều lựa chọn máy bay làm phương tiện để di chuyển. Hầu hết các hãng hàng không hiện tại đều có các chuyến đi thẳng đến Huế, du khách sẽ di chuyển đến trung tâm một cách dễ dàng hơn. Khi đáp xuống sân bay, bạn có thể sử dụng các dịch vụ đưa đón tận nơi như taxi, grab để di chuyển. Bên cạnh đó nếu có thời gian chuẩn bị, du khách hãy đặt xe máy riêng để chủ động trong việc đi lại.
+
+        </p>
+        <p>Di chuyển bằng xe khách: Với ưu điểm tiết kiệm chi phí và thời gian, xe khách cũng là sự lựa chọn tối ưu để du khách du lịch Cố đô Huế. Hiện tại có rất nhiều hãng xe khách đưa đón tận nơi, xuất phát từ Hà Nội hay Hồ Chí Minh đều đa dạng về sự lựa chọn. 
+
+        </p>
+        <p>Di chuyển bằng tàu hỏa: Một sự lựa chọn không tồi khi đến với Huế là di chuyển bằng tàu hỏa. Với ưu điểm giá thành rẻ, cảnh quang đẹp đã thu hút du khách lựa chọn. Tuy nhiên, việc đi bằng tàu hỏa sẽ tốn nhiều thời gian hơn, bạn có thể cân nhắc kỹ nhé. 
+
+        </p>
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link disabled" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="codohoalu.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="codohue.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="denhung.html">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="thanhnhaho.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

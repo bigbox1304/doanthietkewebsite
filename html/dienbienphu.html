@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap ">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap ">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Điện Biên Phủ</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Điện Biên Phủ</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerdienbien.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Điện Biên Phủ </h2>
+        <p>Điện Biên Phủ được đánh giá là chứng tích hào hùng của dân tộc, nơi đã chứng kiến ông cha ta đổ máu để gìn giữ và bảo vệ dân tộc khỏi thực dân Pháp. Chiến thắng Điện Biên Phủ là một trận đánh lịch sử thể hiện tinh thần yêu nước, ý chí chiến đấu kiên cường, bất khuất và sự đoàn kết của toàn dân để giành lại độc lập.</p>
+        <h2>Khu di tích chiến trường Điện Biên Phủ</h2>
+          <p>Quần thể di tích chiến trường Điện Biên Phủ là một quần thể các di tích lịch sử nằm tại tỉnh Điện Biên ghi lại chiến công của Quân đội nhân dân Việt Nam trong chiến dịch Điện Biên Phủ. Hiện nay, nơi đây đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 23 di tích quốc gia đặc biệt.</p>
+          <p>Các di tích nổi bật của chiến trường Điện Biên bao gồm đồi A1, C1, C2, D1, cứ điểm Hồng Cúm, Him Lam, đồi Độc Lập, cầu Mường Thanh, sân bay Mường Thanh (nay là sân bay Điện Biên Phủ) và hầm chỉ huy tập đoàn cứ điểm Điện Biên Phủ.</p>
+          
+        <h2>Bảo tàng Chiến thắng lịch sử Điện Biên Phủ</h2>
+        <p>Tọa lạc tại Phố 1, Phường Mường Thanh, TP Điện Biên Phủ, tỉnh Điện Biên, Bảo tàng Điện Biên Phủ được xây dựng vào năm 1984 nhân dịp kỷ niệm 30 năm chiến thắng lịch sử Điện Biên Phủ.</p>
+        <p>Bảo tàng có năm khu trưng bày với 274 hiện vật và 122 bức tranh theo từng chủ đề: Vị trí chiến lược của Điện Biên Phủ; Tập đoàn cứ điểm của địch tại Điện Biên Phủ; Đảng chuẩn bị đường lối chỉ đạo cho chiến dịch Điện Biên Phủ; Ảnh hưởng của chiến thắng Điện Biên Phủ; Điện Biên Phủ ngày nay.
+
+        </p>
+        <p>Năm nay, khi đến thăm Bảo tàng, bạn sẽ được chiêm ngưỡng bức tranh panorama lớn nhất thế giới “Trận chiến Điện Biên Phủ”. Bức tranh thể hiện tất cả giai đoạn của Chiến dịch Điện Biên Phủ một cách sinh động và hấp dẫn.
+
+        </p>
+        <p>Lựa chọn Bảo tàng là điểm đến đầu tiên trong chuyến thăm quan lịch sử sẽ giúp bạn có hiểu biết toàn cảnh hơn và hiểu sâu hơn ý nghĩa của những địa điểm lịch sử tiếp theo.
+
+        </p>
+        <h2>Tượng đài chiến thắng Điện Biên Phủ </h2>
+        <P>Được đặt trên đồi D1 nằm ở vị trí trung tâm thành phố Điện Biên Phủ – tỉnh Điện Biên, Tượng đài chiến thắng Điện Biên Phủ nằm ở vị trí trung tâm khu di tích, cao khoảng 50m so với cánh đồng Mường Thanh. </P>
+        <P>Cụm Tượng đài Chiến thắng Điện Biên Phủ là nhóm tượng đồng cao, to và nặng nhất Việt Nam từ trước đến nay. Tượng có chiều cao 12,6m được đúc bằng 217 tấn đồng, dựng trên bệ cao 3,6m và gồm 12 thớt, trong đó có những thớt nặng 40 tấn.
+
+        </P>
+        <P>Tượng đài chiến thắng Điện Biên Phủ là niềm tự hào của nhân dân các dân tộc tỉnh Điện Biên. Đây cũng là điểm dừng chân không thể bỏ qua mỗi khi du khách đến mảnh đất lịch sử anh hùng Điện Biên.
+
+        </P>
+        <h2>Đồi A1</h2>
+        <p>Đồi A1 nằm ở phường Mường Thanh, thành phố Điện Biên Phủ, tỉnh Điện Biên. Trong chiến dịch Điện Biên Phủ, đồi A1 nằm ở vị trí chiến lược đặc biệt quan trọng, được coi là “cuống họng” bảo vệ phân khu trung tâm, trực tiếp bảo vệ căn hầm của tướng De Catries.</p>
+        <p>Tên A1 là tên quân đội ta đặt cho ngọn đồi này, còn trước đây ngọn đồi này có những tên gọi khác nhau như Lạng Chượng, Eliane2.
+
+        </p>
+        <p>Trên đỉnh đồi có căn hầm cố thủ, vốn là hầm rượu vang của toà công sứ Pháp trước năm 1945. Sau khi nhảy dù chiếm đóng Điện Biên Phủ, quân Pháp đã cho củng cố căn hầm ngầm thành một cứ điểm quân sự. Hầm được chia thành hai ngăn, trong đó một ngăn là nơi làm việc của bộ phận thông tin điện đài. Hầm được làm bằng những vật liệu vô cùng chắc chắn bốn bên là tường gạch kiên cố, mái hầm được đổ những lớp bê tông dày, khi cần thiết có thể dùng làm nơi ẩn nấp cho hàng chục người. Trên đồi A1 vẫn vẹn nguyên dấu tích hố Bộc phá được tạo thành bởi 960kg thuốc nổ.
+
+        </p>
+        <p>Ngày nay, đến với di tích đồi A1, bạn có thể trải nghiệm một số hoạt động thực tế như: nấu cơm chiến sĩ bằng bếp Hoàng Cầm, đẩy xe đạp thồ để chở nhu yếu phẩm, nghe các câu chuyện về chiến dịch Điện Biên Phủ và sinh hoạt của người lính trong chiến đấu.
+
+        </p>
+
+
+        <h2>Nghĩa trang liệt sĩ quốc gia Đồi A1</h2>
+        <p>Nằm cách điểm di tích lịch sử đồi A1 (thành phố Điện Biên Phủ) không xa về phía nam, nằm đối diện Bảo tàng Chiến thắng lịch sử Điện Biên Phủ, Nghĩa trang liệt sĩ quốc gia Đồi A1 được xây dựng năm 1958.</p>
+        <p>Nơi đây là nơi an nghỉ của 644 cán bộ, chiến sĩ quân đội đã hy sinh anh dũng bảo vệ tổ quốc trong chiến dịch Điện Biên Phủ.  Năm 1994, nghĩa trang được tu bổ, quy hoạch và xây dựng thành một công trình lịch sử văn hóa, một nghĩa trang công viên với nhiều hạng mục. Bên trong khuôn viên là nhà quản trang được thiết kế theo kiểu ngôi nhà sàn đặc trưng của người Thái Điện Biên, lễ đài bên ngoài được thiết kế theo lối Khuê Văn Các hai bên là hai kiểu tường thành cổ với hai hào nước phía trước rộng 6m, bên ngoài tường thành là bức phù điêu đắp nổi tái hiện lại sự chiến đấu anh dũng của quân và dân ta và chín năm kháng chiến trường kỳ giành lại độc lập dân tộc.</p>
+        <h2>Sở chỉ huy chiến dịch Điện Biên Phủ</h2>
+        <p>Di tích Sở Chỉ huy Chiến dịch Điện Biên Phủ tại Mường Phăng nằm ở độ cao trên 1.000 m so với mực nước biển, ẩn mình dưới tán rừng cổ thụ, dưới chân núi Pú Đồn, cách trung tâm thành phố Điện Biên Phủ khoảng 40 km 
+        </p>
+        <p>Nơi đây hiện còn lưu giữ nhiều di tích có giá trị lịch sử như: Lán ở và làm việc của Đại tướng Võ Nguyên Giáp, Phó Tổng Tham mưu trưởng Hoàng Văn Thái, Trưởng ban thông tin liên lạc Hoàng Đạo Thúy… Dù trải qua nhiều thăng trầm của thời gian, di tích Sở Chỉ huy chiến dịch Điện Biên Phủ vẫn giữ nguyên vẻ hoang sơ, hào hùng của lịch sử dân tộc.</p>
+        <h2>Đèo Pha Đin</h2>
+        <p>Nhắc tới Chiến dịch Điện Biên Phủ, chắc hẳn không ai có thể quên câu thơ “Dốc Pha Đin, chị gánh anh thồ” của nhà thơ Tố Hữu trong bài thơ “Hoan hô chiến sĩ Điện Biên”.</p>
+        <p>Đèo Pha Đin hay Dốc Pha Đin là đèo núi có độ dài 32 km nằm trên quốc lộ 6, một phần thuộc xã Phỏng Lái, huyện Thuận Châu tỉnh Sơn La và một phần thuộc xã Tỏa Tình, huyện Tuần Giáo, tỉnh Điện Biên. Điểm khởi đầu của đèo cách thị xã Sơn La về phía Tây 66 km còn điểm cuối của đèo cách thành phố Điện Biên khoảng 84 km.</p>
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="denphudong.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="denngocson.html">7</a></li>
+                        <li class="page-item"><a class="page-link" href="dentran.html">8</a></li>
+                        <li class="page-item"><a class="page-link" href="dienbienphu.html">9</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="dinhdoclap.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Thành nhà Hồ</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Thành Nhà Hồ</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerthanhnhaho.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Thành Nhà Hồ </h2>
+        <p>Nằm trên địa phận tỉnh Thanh Hóa, thành nhà Hồ hay còn gọi là thành Tây Đô thuộc xã Vĩnh Long, huyện Vĩnh Lộc, cách thành phố Thanh Hóa 45 km theo hướng quốc lộ 45, được xem là tòa thành kiên cố có kiến trúc độc đáo bằng đá, quy mô lớn hiếm hoi ở Việt Nam. Là kinh đô nước Đại Ngu, dù chỉ tồn tại trong bảy năm (1400 - 1407) nhưng nơi đây từng là trung tâm chính trị - kinh tế - văn hóa - xã hội của nước ta.</p>
+        
+        <h2>Lịch sử Thành Nhà Hồ </h2>
+        <p>Thành Tây Đô được xây vào năm 1397 dưới triều Trần do quyền thần Hồ Quý Ly chỉ huy, người không lâu sau (1400) lập ra nhà Hồ. Theo sử sách, thành bắt đầu xây dựng vào mùa xuân tháng một năm Đinh Sửu niên hiệu Quang Thái thứ 10 đời vua Thuận Tông của vương triều Trần. Người quyết định chủ trương xây dựng là Hồ Quý Ly, lúc bấy giờ giữ chức Nhập nội Phụ chính Thái sư Bình chương quân quốc trọng sự, tước Tuyên Trung Vệ quốc Đại vương, cương vị Tể tướng, nắm giữ mọi quyền lực của triều đình. Người trực tiếp tổ chức và điều hành công việc kiến tạo là Thượng thư bộ Lại Thái sử lệnh Đỗ Tỉnh (có sách chép Mẫn). Hồ Quý Ly xây thành mới ở động An Tôn (nay thuộc địa phận các xã Vĩnh Long, Vĩnh Tiến, huyện Vĩnh Lộc, tỉnh Thanh Hóa), làm kinh đô mới với tên Tây Đô, nhằm buộc triều Trần dời đô vào đấy trong mục tiêu chuẩn bị phế bỏ vương triều Trần. Tháng 3 năm Canh Thân (26-3 đến 24-4-1400), vương triều Hồ thành lập (1400- 1407) và Tây Đô là kinh thành của vương triều mới, thành Thăng Long đổi tên là Đông Đô vẫn giữ vai trò quan trọng của đất nước. Vì vậy thành Tây Đô được dân gian quen gọi là Thành nhà Hồ. Thành đá được xây dựng trong một thời gian kỷ lục, chỉ chừng 3 tháng. Các cấu trúc khác như các cung điện, rồi La Thành phòng vệ bên ngoài, đàn Nam Giao... còn được tiếp tục xây dựng và hoàn thiện cho đến năm 1402. Hổ Quý Ly từ khi nắm quyền lực của triều Trần cho đến khi sáng lập vương triều mới đã ban hành và thực thi một loạt chính sách cải cách về các mặt chính trị, kinh tế, tài chính, văn hóa, giáo dục nhằm khắc phục cuộc khủng hoảng của chế độ quân chủ cuối triều Trần, củng cố chính quyền trung ương và chuẩn bị cho cuộc kháng chiến chống Minh. Trong lịch sử chế độ quân chủ Việt Nam, Hồ Quý Ly là một nhà cải cách lớn với một hệ thống chính sách và biện pháp khá toàn diện, táo bạo. Thành nhà Hồ được xây dựng và tồn tại trong những biến động cuối thế kỷ XIV đầu thê kỷ XV, gắn liền với sự nghiệp của nhà cải cách lớn Hồ Quý Ly và vương triều Hồ.</p>
+        <h2>Kết cấu Thành Nhà Hồ</h2>
+       <p>Thành nhà Hồ được xây dựng chỉ trong vòng 3 tháng, sau đó được tiếp tục hoàn thiện cho đến năm 1402. Nơi này có địa thế khá hiểm trở với núi non dựng đứng, sông nước bao quanh, vừa có ý nghĩa chiến lược trong phòng thủ quân sự, vừa phát huy được ưu thế giao thông đường thuỷ.</p>
+       <p>Thành nội có hình chữ nhật dài 870,5m theo chiều Bắc - Nam và 883,5m chiều Đông - Tây. Bốn cổng thành Nam - Bắc - Tây - Đông gọi là tiền - hậu - tả - hữu. Các cổng của thành nội đều xây kiểu vòm cuốn, đá xếp múi, các phiến đá được xây dựng đặc biệt lớn. Thành nhà Hồ có trình độ kỹ thuật xây vòm đá rất cao. Các phiến đá nặng hàng chục tấn được ráp với nhau một cách tự nhiên, không chất kết dính mà vẫn còn tồn tại sau 600 năm. </p>
+       <p>Hào thành rộng khoảng hơn 90m với phần đáy rộng 52m, sâu hơn 6.5m. Để giữ độ chắc chắn cho Hào thành, người xưa đã dùng đá hộc, đá dăm lót ở phía dưới. </p>
+       <p>Phía trước Hào thành là La thành. La thành hiện tại là tòa thành đất cao 6m, bề mặt rộng 9.2m, mặt ngoài dốc đứng, phía trong thoai thoải, mỗi bậc cao 1.5m, một số vị trí có lát thêm sỏi để gia cố. Toàn bộ La thành xây dựng dựa theo địa hình tự nhiên, tạo nên bức tường thiên nhiên hùng vĩ, có chức năng bảo vệ tòa thành và phòng chống lũ lụt.
+
+       </p>
+       <p>Đàn tế Nam Giao được xây dựng ở phía Nam thành nhà Hồ, phía bên trong của La thành với diện tích là 35.000m2. Đàn tế được chia làm nhiều tầng, trong đó tầng đàn trung tâm cao 21.7m. Chân đàn cao khoảng 10.5m. Phần đàn tế trung tâm bao gồm ba vòng tường bao bọc lẫn nhau. </p>
+
+        <h2>Thành nhà Hồ được UNESCO công nhận vào năm nào</h2>
+        <p>Di tích thành nhà Hồ đã được Bộ Văn hoá - Thể thao và Du lịch xếp hạng là di tích cấp quốc gia, có giá trị đặc biệt quan trọng của dân tộc vào năm 1962. </p>
+        <p>Tiếp theo đó là 11 năm đệ trình hồ sơ lên Uỷ ban Di sản Thế giới. Đến ngày 27 tháng 6 năm 2011, tổ chức UNESCO đã chính thức công nhận thành nhà Hồ là di sản văn hoá thế giới sau khi thông qua hai tiêu chí: 
+          <ul>
+            <li>Thể hiện được sự ảnh hưởng và các giá trị nhân văn qua một thời kỳ lịch sử của quốc gia hay khu vực trên thế giới. Có những đóng góp quý báu về kiến trúc, công nghệ, điêu khắc, và quy hoạch thành phố.</li>
+            <li>Thành nhà Hồ Vĩnh Lộc Thanh Hoá là công trình cổ xưa, khắc hoạ được giá trị của một hay nhiều giai đoạn trong lịch sử nhân loại.</li>
+          </ul>
+        </p>
+        <h2>Di chuyển đến Thành nhà Hồ </h2>
+        <p>Thành nhà Hồ ở tỉnh nào? Thành nhà Hồ thuộc xã Vĩnh Long, huyện Vĩnh Lộc, tỉnh Thanh Hoá, nằm cách trung tâm thành phố 45km, cách Hà Nội 140km. Thành nhà Hồ Vĩnh Lộc từng là kinh đô của nước Việt Nam và hiện tại trở thành cảnh đẹp Thanh Hoá, được nhiều du khách ghé thăm. 
+        </p>
+        </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="denhung.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="thanhnhaho.html">4</a></li>
+                        <li class="page-item"><a class="page-link" href="chienkhutantrao.html">5</a></li>
+                        <li class="page-item"><a class="page-link" href="denphudong.html">6</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="denngocson.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

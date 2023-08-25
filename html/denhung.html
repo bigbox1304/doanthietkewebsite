@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Đền Hùng</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Đền Hùng</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerdenhung.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Đền Hùng</h2>
+        <p>Đền Hùng là một trong những di tích lịch sử lâu đời, nơi tưởng nhớ đến các vị Vua Hùng, người có công dựng nước và giữ nước. Vào ngày 10/3 âm lịch, mọi người từ khắp nơi trên đất nước đổ về đền Hùng để thắp nhang như một nét đẹp văn hoá truyền thống, thể hiện sự trân trọng và biết ơn khi nhớ về cội nguồn, về quê hương bản địa.</p>
+        
+        <h2>Lịch sử Cố đô Hoa Lư</h2>
+        <p>Cố đô Hoa Lư là đế đô đầu tiên của nước ta, tồn tại trong 42 năm. Mảnh đất này là nơi đã chứng kiến sự nghiệp dựng nước và giữ nước oai hùng của 12 năm triều Đinh (968 – 980), 29 năm triều Tiền Lê (980 – 1009) và đầu nhà Lý (1009 – 1010).
+
+          Với địa thế đồi núi trùng điệp bao bọc xung quanh vành đai kinh đô như tấm bình phong vững chãi, cùng dòng Hoàng Long uốn khúc và cánh đồng Nho Quan, Gia Viễn với hào sâu, Hoa Lư là vùng đất có giá trị cao về mặt quân sự. Chính tại vùng đất này, năm 968, Đinh Bộ Lĩnh đã dẹp loạn 12 sứ quân, lên ngôi hoàng đế, lập ra nước Đại Cồ Việt oai hùng, và Hoa Lư trở thành trung tâm chính trị, đồng thời là đế đô đầu tiên của nước ta.
+          
+          Đến thời vua Lý Thái Tổ, ông đã đưa ra quyết định dời dô lịch sử, và Hoàng thành Thăng Long chính là nơi được lựa chọn khi nhận ra kinh đô Hoa Lư chật hẹp, khó mở mang thành đô và không phù hợp với vị thế đất nước lúc bấy giờ. 
+          
+          Chính quyết định mang tính chất lịch sử này đã kết thúc những tháng ngày Hoa Lư là vùng đất cố đô của nước ta. Tuy nhiên, hệ thống triều đình và cơ sở vật chất của Hoàng thành Thăng Long lúc bấy giờ đều thừa hưởng từ kinh đô Hoa Lư ngày trước. Tuy sau này các vua không sinh sống tại đây nữa, nhưng Cố đô Hoa Lư vẫn tiếp tục được xây dựng những công trình kiến trúc kiên cố với đền, chùa, đền thờ và được bảo tồn cho đến tận ngày nay.</p>
+        <h2>Quá trình phát triển</h2>
+        <p>
+          Đền Hùng được Bộ Văn hóa thông tin xếp hạng là khu di tích đặc biệt của quốc gia vào năm 1962. Đến năm 1967, Chính phủ Việt Nam đã quyết định khoanh vùng xây dựng khu rừng cấm Đền Hùng. Ngày 8 tháng 2 năm 1994, Thủ tướng Chính phủ Việt Nam đã phê duyệt dự án quy hoạch tổng thể Khu di tích lịch sử Đền Hùng lần thứ nhất, tạo tiền đề cho việc đầu tư xây dựng nhiều công trình hạng mục trong khu di tích.
+        </p>
+        <p>
+          Ngày 6 tháng 12 năm 2012, UNESCO công nhận Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ là di sản văn hóa phi vật thể của nhân loại với những yếu tố thuộc đời sống tâm linh của người Việt Nam đã tồn tại từ hàng nghìn năm nay, thể hiện nền tảng tinh thần đại đoàn kết dân tộc và gắn kết cộng đồng. Tính độc đáo của tín ngưỡng này thể hiện rất rõ ở yếu tố thờ Hùng Vương chính là thờ Quốc tổ. Đây là hiện tượng văn hóa không phải dân tộc nào cũng có.      </p>
+        <p>
+        <h2>Các di tích chính</h2>
+        <p>Đền Hạ: Tương truyền là nơi Âu Cơ sinh hạ bọc trăm trứng, sau nở thành một trăm người con.</p>
+        <p>Nhà bia: Nhà bia nằm ngay cạnh đền Hạ có kiến trúc hình lục giác với sáu mái. Trong đặt tấm bia đá khắc dòng chữ quốc ngữ: "Các Vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước". Đây là câu nói nổi tiếng của Chủ tịch nước Việt Nam Dân chủ Cộng hòa Hồ Chí Minh trong chuyến thăm Đền Hùng ngày 19 tháng 9 năm 1954.</p>
+        <p>Chùa Thiên Quang: còn gọi là Thiên quang thiền tự, tọa lạc gần đền Hạ.</p>
+        <p>Đền Trung: Tương truyền là nơi các Vua Hùng cùng các Lạc hầu, Lạc tướng du ngoạn Nghĩa Lĩnh ngắm cảnh và họp bàn việc nước.</p>
+        <p>Đền Thượng: Đền được đặt trên đỉnh núi, nơi ngày xưa theo truyền thuyết các Vua Hùng thường lên tiến hành các nghi lễ, tín ngưỡng của cư dân nông nghiệp thờ trời đất, thờ thần lúa, cầu mong mưa thuận gió hòa, mùa màng tươi tốt, nhân khang vật thịnh. Ngoài cổng đền có dòng đại tự: "Nam Việt triệu tổ" (tổ tiên của người Việt phương Nam). Tấm văn bia Hùng Vương từ khảo được tạc bằng đá xanh, gắn trên tường quan cư ở bên trái đền Thượng, vốn đã bị đánh cắp vào khoảng 10 năm sau khi xuất hiện, chỉ còn lại chân bia. Vào năm 2010, bia được khôi phục.</p>
+        <p>Lăng Hùng Vương (Hùng Vương lăng) tương truyền là mộ của Vua Hùng thứ sáu. Lăng mộ nằm ở phía đông đền Thượng, mặt quay theo hướng Đông Nam. Xưa đây là một mộ đất, niên hiệu Tự Đức năm thứ 27 (1870) đã cho xây mộ dựng lăng. Thời Khải Định tháng 7 (năm 1922) trùng tu lại.</p>
+        <p>Đền Giếng: Tương truyền là nơi công chúa Tiên Dung và công chúa Ngọc Hoa (con gái của Vua Hùng thứ mười tám) thường soi gương, vấn tóc khi theo cha đi kinh lý qua vùng này. Đền được xây dựng vào thế kỷ 18.</p> 
+        <p>Đền Mẫu Âu Cơ: Là một ngôi đền mới, được bắt đầu xây dựng vào năm 2001 và khánh thành tháng 12 năm 2004, được xây dựng trên núi Ốc Sơn (núi Vặn).</p>
+        <p>Đền thờ Lạc Long Quân: Theo truyền thuyết, Lạc Long Quân là con của Kinh Dương Vương và Thần Long, cháu ngoại của Động Đình Quân. Lạc Long Quân được xem là vị vua nước Xích Quỷ, trước nhà nước Âu Lạc. Lạc Long Quân và Âu Cơ được xem như là thủy tổ của dân tộc Việt Nam, gắn liền với truyền thuyết "bọc trăm trứng". Con trai cả của ông là người đã lập ra nước Văn Lang, thống nhất 15 bộ lạc, lấy hiệu là Hùng vương đời thứ nhất. Hiện nay đền thờ Lạc Long Quân nằm tại núi Sim của khu di tích lịch sử Đền Hùng, cách núi Nghĩa Lĩnh (hay còn gọi là núi Hùng) khoảng 1 km về phía Đông Nam.</p>
+        <h2>Lễ hội đền Hùng</h2>
+        <p>Theo Ngọc phả Hùng Vương chép thời Hồng Đức hậu Lê thì từ thời nhà Đinh, nhà Lê, nhà Lý, nhà Trần rồi đến Hậu Lê vẫn cùng hương khói trong ngôi đền, ở đây nhân dân toàn quốc đều đến lễ bái để tưởng nhớ công lao của Đấng Thánh Tổ xưa…" Văn học dân gian Việt Nam nói về lễ hội đền Hùng như sau: Dù ai đi ngược về xuôi Nhớ ngày giỗ tổ mùng 10 tháng ba.</p>
+        <h2>Trống đồng tại Đền Hùng</h2>
+          <p>Trống đồng mang tên Trống Hy Cương được tìm thấy ở xã Hy Cương ngay dưới chân núi Nghĩa Lĩnh ngày 7 tháng 8 năm 1990[10] khi một gia đình người dân đào hố tôi vôi. Trống khá nguyên vẹn, có đường kính mặt 93 cm và chiều cao 70 cm, là trống đồng Đông Sơn có kích thước lớn nhất trong tổng số trống Đông Sơn đã biết ở Việt Nam và Đông Nam Á[11].
+            </p>
+            <p>Trống có hoa văn trang trí phong phú và cách điệu hóa đức độ, trong đó có các loại hoa văn chủ đạo như hình ngôi sao mười hai cánh đường kính đến 20 cm, tám con chim lạc dài 15 cm bay theo hướng ngược chiều kim đồng hồ, hình người hóa trang cách điệu chỉ có mắt và lông công, thuyền v.v. Có thể quanh Hy Cương còn nhiều trống đồng chưa được phát hiện ra[12], nhưng với việc phát hiện trống lớn như một bằng chứng khảo cổ tại chân núi Nghĩa Lĩnh, cho thấy vị trí đặc biệt của Hy Cương và đền Hùng trong lịch sử dân tộc (trống lớn thường thuộc sở hữu của một vị tù trưởng hoặc thủ lĩnh rất lớn), là một trong những minh chứng khẳng định tính lịch sử của huyền thoại các vua Hùng. Trống hiện được lưu giữ trong Bảo tàng Hùng Vương với số đăng ký ĐH 2012 (theo số mới), số cũ là 1549.</p>
+          </p>
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link disabled" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="codohoalu.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="codohue.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="denhung.html">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="thanhnhaho.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

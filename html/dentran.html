@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap ">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Đền Trần</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Đền Trần</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerdentran.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Đền Trần </h2>
+        <p>Đền Trần chính là nơi an nghỉ của các vị vua thời Trần, ngoài ra, đây cũng là nơi con cháu họ Trần đến để thắp hương và tưởng nhớ tổ tông. Di tích lịch sử này được xây dựng vào năm 1695, bao gồm đền Thượng, đền Thiên Đường, đền Trùng Hoa và đền Hạ.</p>
+        
+        <h2>Lịch sử Đền Trần</h2>
+        <p>Đền Trần hiện nay được xây dựng trên nền Phủ Thiên Trường xưa. Đây là nơi phát tích của vương triều nhà Trần và được coi là kinh đô thứ hai của nước Đại Việt. Năm 1258, quân Mông Nguyên mang quân xâm lược nước ta lần thứ nhất, vua Trần Thái Tông đã ra lệnh cho quân và dân ta thực hiện chiến lược “vườn không nhà trống” tại kinh thành Thăng Long nhằm khiến quân Minh suy giảm nhuệ khí đồng thời ông đem quân rút lui về phủ Thiên Trường nhằm huy động sức mạnh toàn dân.</p>
+        <p>Sau một thời gian bền bỉ đấu tranh, quân ta đã đánh bại quân Nguyên Mông. Ngày 14 tháng 1, vua Trần Thái Tông đã mở tiệc thiết đãi, phong tước cho những người có công đánh giặc giữ nước tại phủ Thiên Trường. Ngoài ra, vua còn tổ chức nghi thức khai ấn để cúng tế tổ tiên, trời đất, mở đầu cho một năm thái bình, nhân dân no ấm.</p>
+        <p>Vào thế kỷ thứ 15, quân Minh đã phá hủy Phủ Thiên Trường. Về sau, khu di tích đền Trần đã được xây dựng lại trên nền phủ xưa và duy trì nghi thức khai ấn đầu năm để tưởng nhớ các vị vua nhà Trần có công xây dựng và bảo vệ đất nước.</p>
+        <h2>KIẾN TRÚC ĐỀN TRẦN</h2>
+        <p>Đền Trần là một quần thể di tích gồm ba công trình: đền Thiên Trường hay còn gọi là đền Thượng, đền Cố Trạch hay còn gọi là đền Hạ và đền Trùng Hoa. Cả ba công trình này đều được xây dựng theo một kiến trúc chung, quy mô ngang nhau. Mỗi một ngôi đền gồm có: tiền đường rộng 5 gian, trung đường rộng 5 gian, chính tẩm rộng 3 gian. Tiền đường và trung đường được nối với nhau bằng kinh đàn và hai gian tả hữu.</p>
+        <p>Trước khi vào đền, du khách sẽ đi qua hệ thống cổng ngũ môn, trên cổng đề ba chữ Hán “Chính nam môn” và “Trần Miếu”. Sau khi qua cổng du khách sẽ bắt gặp một hồ nước hình chữ nhật, chính giữa sau hồ nước chính là đền Thiền Trường, phía đông đền là đền Cố Trạch, phía tây đền là đền Trùng Hoa.</p>
+        <p>Đền Thiên Trường được xây dựng vào năm 1695 với vật liệu hoàn toàn bằng gỗ. Đền được xây dựng trên nền Thái miếu và cung Trùng Quang của nhà Trần. Thái miếu là nhà thờ họ của nhà Trần. Cung Trùng Quang là nơi các Thái Thượng Hoàng nhà Trần sống và làm việc. Năm 1773, 1854, 1895, 1907-1908 đền được mở rộng hơn.</p>
+        <p>Đền Trùng Hoa mới được xây dựng từ năm 2000, dưới sự hỗ trợ kinh phí của chính phủ. Ngôi đền này được xây dựng trên nền của cung Trùng Hoa xưa kia. Cung này là nơi các đương kim hoàng thượng nhà Trần tham vấn các vị Thái Thượng Hoàng. Tại trung đường và chính tẩm của đền Trùng Hoa đặt 14 pho tượng các vị vua nhà Trần được làm bằng đồng. Tòa thiêu hương đặt ngai và bài vị của hội đồng các quan. Gian hữu vu thờ các quan võ, gian tả vu thờ các quan văn.</p>
+        <p>Đền Cổ Trạch được xây dựng vào năm 1894 và khánh thành vào năm 1895. Theo sử sách ghi chép lại, khi tu sửa đền Thiên Trường vào năm 1868 thì đào được một mảnh bia vỡ có ghi chữ “Hưng Đạo Thân Vương Cố Trạch” tức nhà cũ của Hưng Đạo thân vương nên khi sau khi xây xong đền người ta đặt tên là đền Cố Trạch.</p>
+      
+        <h2>Thời điểm lý tưởng đến chiêm bái</h2>
+        <p>Không giống những ngôi đền khác, đền Trần tấp nập khách tham quan, chiêm bái quanh năm bạn có thể đến đây bất cứ thời điểm nào trong năm đều được. Tuy nhiên thời điểm lý tưởng nhất là vào Lễ khai ấn đền Trần đầu năm và lễ hội đền Trần vào tháng tám. Đây là hai thời điểm đền Trần đông đúc nhất, là nơi quy tụ của khách thập phương khắp cả nước và được mọi người ví von là “đông như quân Nguyên”. Đó không hề nói quá bởi đây là thời điểm được mong đợi nhất trong năm đặc biệt là lễ Khai ấn.</p>
+        <p>Lễ Khai ấn được tổ chức vào rạng sáng ngày 15 tháng giêng hàng năm. Tối ngày 14 diễn ra nghi thức rước hòm ấn từ nội cung đền Cổ Trạch đến đền Thiên Đường. Tại đây, đúng giờ Tý sẽ cử hành nghi thức khai ấn. Tiếp đó khách thập phương sẽ vào đền tế lễ và xin lá ấn.</p>
+        <p>Xưa kia lễ khai ấn chỉ được bó hẹp trong không gian, phạm vi làng Tức Mặc và dần trở thành lễ hội lớn của Nam Định. Chiếc ấn dùng để đóng ấn trong lễ hội đền Trần hiện nay là “Trần miếu tự điển”, có hình vuông, làm bằng gỗ, được chế tạo dưới thời nhà Nguyễn. Hai mặt Đông và Tây của viền ấn có khắc hình hai con rồng. Mặt Nam của viền ấn có khắc chìm 4 chữ “Tích phúc vô cương”.</p>
+        <p>Bốn chữ “Tích phúc vô cương” có ý nghĩa giáo dục sâu sắc, đó là ban cho con cháu cái phúc, dạy con cháu và bách gia trăm họ phải biết giữ gìn những phẩm chất đạo đức tốt đẹp, tích phúc, tích đức càng nhiều thì càng được hưởng lộc bền vững.</p>
+        <p>Để xin được ấn trong dịp này nhiều người đã phải giành giật, chen lấn rất khó khăn bởi lượng người xin ấn quá đông. Người ta quan niệm rằng, nếu dành được ấn thì năm đó làm ăn thuận lợi, xua tan đen đủi, phúc trạch tràn đầy, luôn bình an, khỏe mạnh, thăng quan, tiến chức. Thực chất lễ hội này chỉ mang ý nghĩa tri ân công lao của 14 vị vua nhà Trần.</p>
+        <h2>Lễ hội của đền Trần </h2>
+        <p>Lễ hội của đền Trần diễn ra từ ngày 15 đến ngày 20 tháng 8 âm lịch hàng năm. Lễ hội gồm phần lễ và phần hội rất náo nhiệt. Phần lễ bắt đầu với các lễ rước từ đình, đền xung quanh về dâng hương ở đền Thiên Trường. Phần hội bao gồm các hoạt động vui chơi dân gian như: đấu vật, chơi cờ thẻ, múa lân, diễn võ 5 thế, đi cầu kiều, múa bài bông, hát văn.</p>
+        <h2>Di chuyển đến đền Trần</h2>
+        <p>Quãng đường từ Hà Nội về đền Trần khoảng 87km nên du khách có thể dễ dàng tự đi xe đến. Dọc theo cao tốc Pháp Vân – Cầu Giẽ, bạn đi vào đường Phủ Lý tỉnh Hà Nam rồi rẽ tiếp vào đường 21 để đi tới Thái Bình. Từ thành phố Thái Bình bạn đi theo biển chỉ dẫn một đoạn là tới Nam Định. Đến cầu vượt ở đầu thành phố bạn rẽ trái lại theo đường 10 khoảng 2 - 3km là đến</p>
+     
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="denphudong.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="denngocson.html">7</a></li>
+                        <li class="page-item"><a class="page-link" href="dentran.html">8</a></li>
+                        <li class="page-item"><a class="page-link" href="dienbienphu.html">9</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="dinhdoclap.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

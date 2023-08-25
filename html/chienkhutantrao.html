@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Chiến khu Tân Trào</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Chiến khu<br> Tân Trào</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannertantrao.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Chiến khu Tân Trào</h2>
+        <p>Vào năm 1945, chủ tịch Hồ Chí Minh đã chọn chiến khu Tân trào làm thủ đô và thực hiện nhiều hội nghị quan trọng trước cuộc khởi nghĩa toàn quốc. Ngoài ra, đây cũng là nơi ra đời cho Chính phủ lâm thời Việt Nam. Sau những chiến thắng vang dội, chiến khu Tân Trào đã trở thành di tích lịch sử quan trọng, nơi luôn chứng kiến các cuộc kháng chiến Oanh liệt của quân đội và nhân dân Việt Nam.</p>
+        
+        <h2>Lịch sử Chiến khu Tân Trào</h2>
+        <p>
+          Chiến khu Tân Trào là khu di tích lịch sử của cách mạng Việt Nam thời kỳ Cách mạng tháng Tám. Hiện nay, nơi đây đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 23 di tích quốc gia đặc biệt. Tân Trào là thủ đô lâm thời của khu giải phóng, nơi Đảng Cộng sản Việt Nam tiến hành hội nghị toàn quốc ngày 13 tháng 8 năm 1945 để quyết định tổng khởi nghĩa. Đại hội quốc dân đã họp tại đây ngày 16 tháng 8 năm 1945, thông qua 10 chính sách lớn của Việt Minh, bầu ra một chính phủ lâm thời do Hồ Chí Minh làm chủ tịch và quân giải phóng Việt Nam làm lễ ra quân.
+        </p>
+        <p>Tân Trào là tên mới, được hợp nhất từ hai xã Tân Lập và Hồng Thái vào năm 1945 (trước đây còn gọi là Kim Long và Kim Châu).</p>
+        <h2>Các địa danh nằm trong chiến khu</h2>
+        <p>
+          Đình Tân Trào là một đình nhỏ được xây dựng vào năm 1923 theo kiểu nhà sàn, cột gỗ, ba gian hai chái, mái lợp lá cọ, sàn lát ván, để đáp ứng nhu cầu tín ngưỡng và là nơi hội họp, sinh hoạt văn hoá của dân làng. Đình thờ 8 vị thành hoàng làng đại diện cho các thần sông, thần núi của làng Tân Lập, xã Tân Trào. Dưới mái đình này, ngày 16 tháng 8 năm 1945 đã họp Quốc dân Đại hội để quyết định lệnh tổng khởi nghĩa, 10 chính sách lớn quy định quốc kỳ, quốc ca và cử ra một chính phủ lâm thời. Vào ngày 20/3/1961, Hồ Chí Minh đã về thăm lại quê hương cách mạng Tân Trào.
+        </p>
+        <p>
+          Đình Hồng Thái cách đình Tân Trào gần 1 km trên đường đi Sơn Dương, đình được xây dựng tại địa phận của làng Cả, xã Tân Trào. Năm 1919, đình có tên là đình Làng Cả hay đình Kim Trận. Đình Hồng Thái còn là trạm giao liên và là nơi huấn luyện quân sự trong suốt thời kỳ kháng chiến. Đình còn là điểm dừng chân của các đại biểu toàn quốc về dự Quốc dân Đại hội, là trạm thường trực của "An toàn khu của Trung ương đóng ở Tân Trào".
+      </p>
+      <p>
+      Lán Nà Lừa đây là một căn lán nhỏ, nằm ở sườn núi Nà Nưa, cách làng Tân Lập gần 1 km về hướng đông, lán Nà Nưa được dựng bằng tre theo kiểu nửa sàn, nửa đất của người miền núi, dưới các đám cây rậm rạp. Lán Nà Nưa do đơn vị giải phóng quân dựng để Hồ Chí Minh ở và làm việc từ tháng 6 năm 1945 đến cuối tháng 8 năm 1945. Lán Nà Nưa có hai gian nhỏ, gian bên trong là nơi Hồ Chí Minh nghỉ ngơi, còn gian ngoài là chỗ Hồ Chí Minh làm việc và tiếp khách. Tại đây, ngày 4 tháng 6 năm 1945, Hồ Chí Minh đã triệu tập Hội nghị cán bộ để củng cố căn cứ địa cách mạng, thành lập khu giải phóng và Quân giải phóng, chuẩn bị Hội nghị toàn quốc của Đảng và Quốc dân Đại hội.
+    </p>
+      <p>
+          <p>Cây đa Tân Trào cách đình Tân Trào khoảng 500 mét về phía Đông. xem trên bản đồ tại đây
+
+            Dưới bóng cây đa này, chiều ngày 16 tháng 8 năm 1945, Việt Nam Giải phóng quân đã làm lễ xuất quân trước sự chứng kiến của nhân dân Tân Trào và 60 đại biểu. Võ Nguyên Giáp đọc bản Quân lệnh số 1 và ngay sau đó hành quân về giải phóng Hà Nội.</p>
+        <p>Lán Hang Bòng là nơi làm việc của Trung ương Đảng Cộng sản Việt Nam, Chính phủ và Hồ Chí Minh ở Việt Bắc trong thời kỳ chống Pháp (1946-1954). Hang cách không xa Hồng Thái, Tân Trào. Từ năm 1950 đến năm 1951, Hồ Chí Minh ở hang này, trực tiếp đi chỉ đạo chiến dịch Biên giới (1950) và Đại hội Đảng toàn quốc lần thứ hai (tháng 2 năm 1951).</p>
+        <P>Ngoài ra, khu di tích Tân Trào còn có những di tích có giá trị lịch sử và du lịch khác như: Bản Khuổi Kịch, đình Thanh La, Vực Thia, làng Tân Lập, lán Cảnh Vệ - Điện Đài, lán Đồng Minh, sân bay Lũng Cò, đèo Chắn, Đồng Man - Lũng Tẩu, Khấu Lẩu - Vực Hồ, Ban Tuyên huấn Trung ương, hang Thia, hang Bòng, thôn Lập Binh, xã Trung Yên, hầm An toàn của Bác, hầm Trung ương Đảng, hầm Chính phủ và Bảo tàng Tân Trào.
+        </P>    
+        <h2>Tham quan Chiến khu Tân Trào</h2>
+        <p>Hiện nay, tới thăm Khu di tích quốc gia đặc biệt Tân Trào, du khách không chỉ được tham quan hệ thống di tích cách mạng kháng chiến mà còn được tìm hiểu cuộc sống của người dân bản địa, trải nghiệm việc thu hái, sao chè tại làng chè Vĩnh Tân; học làm cơm lam, xôi ngũ sắc và nghỉ ngơi trong những ngôi nhà sàn truyền thống của đồng bào Tày ở Làng Văn hóa - Du lịch thôn Tân Lập... Ông Hoàng Đức Xoài, Phó Chủ tịch UBND xã Tân Trào cho biết, đây là sản phẩm du lịch mới được đưa vào phục vụ du khách. Các sản phẩm này đã góp phần phát triển kinh tế địa phương và nâng cao đời sống của người dân.
+
+          </p><p>Theo Giám đốc Công ty FiveStar Travel Lương Duy Doanh, để thu hút du khách đến Tuyên Quang nhiều hơn nữa, cần kéo dài thời gian lưu trú của khách và phát triển sản phẩm du lịch về nguồn - sinh thái - tâm linh, liên kết các di tích lịch sử cách mạng kháng chiến tại các tỉnh như: ATK Định Hóa (Thái Nguyên), ATK Tân Trào (Tuyên Quang), chiến trường Vị Xuyên (Hà Giang) kết hợp với khám phá, trải nghiệm hồ sinh thái Lâm Bình (Na Hang, Tuyên Quang) và Đền Hùng (Phú Thọ)...
+          </p>
+         
+        </p>
+        <h2>Di chuyển đến Chiến khu Tân Trào</h2>
+       <p>Cung đường thuận tiện nhất là hướng qua Tam Đảo, từ Hà Nội bạn theo hướng cầu Thăng Long đi đường Võ Văn Kiệt. Theo QL2A hướng Tam Đảo - Vĩnh Phúc bạn qua cầu Liễn Sơn đi vào QL 2C theo hướng đi Sơn Dương - Tuyên Quang, khi nhìn thấy cầu Trắng bạn đi thêm 5km nữa là tới Tân Trào. Nhiều đoạn đường rất vắng nhà dân chính vì thế bạn có thể sử dụng Google Maps để chủ động hơn trên các tuyến đường.</p>
+     
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="denhung.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="thanhnhaho.html">4</a></li>
+                        <li class="page-item"><a class="page-link" href="chienkhutantrao.html">5</a></li>
+                        <li class="page-item"><a class="page-link" href="denphudong.html">6</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="denngocson.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

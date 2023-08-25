@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white ">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Hồ Gươm</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Hồ Gươm</h3></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+    </div>
+  </header>
+
+  
+
+<main class="container">
+  <img src="../assets/img/bannerhoguom.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Hồ Gươm </h2>
+        <p>Hồ Hoàn Kiếm nằm ở trung tâm thủ đô, được bao quanh bởi 3 con phố Hàng Khay – Lê Thái Tổ – Đinh Tiên Hoàng. Trước đây hồ còn có một số tên gọi khác như hồ Lục Thủy (hồ nước xanh) hay hồ Thủy Quân (bởi hồ từng là nơi để huấn luyện thủy binh chiến đấu). Đến thế kỉ thứ XV, hồ được đổi tên thành hồ Hoàn Kiếm (trả gươm), gắn liền với sự tích trả gươm báu cho rùa vàng của vua Lê Thái Tổ.</p>
+        <p>Hồ Hoàn Kiếm là nơi tụ hội, điểm hẹn lý tưởng bốn mùa: Rực rỡ trong sắc đào và các lễ hội truyền thống vào mùa xuân; lồng lộng những cơn gió xua tan đi cái nóng oi bức của mùa hè; say đắm với những cành liễu rủ trong màn sương huyền ảo của mùa thu; lộng lẫy trong cơn mưa lá vàng và những giọt mưa phùn lất phất bay của mùa đông.
+
+        </p>
+        <h2>Lịch sử Hồ Gươm</h2>
+        <p>Cách đây khoảng 6 thế kỷ, dựa theo bản đồ thời Hồng Đức thì phần lớn xung quanh kinh thành khi ấy là nước. Hồ Hoàn Kiếm là một phân lưu sông Hồng chảy qua vị trí của các phố ngày nay như Hàng Đào, Hai Bà Trưng, Lý Thường Kiệt, Hàng Chuối. Tiếp đó đổ ra nhánh chính của sông Hồng [3]. Nơi rộng nhất phân lưu này hình thành nên hồ Hoàn Kiếm hiện nay.</p>
+        <p>Thời Lê Trung Hưng (thế kỷ 16), khi chúa Trịnh cho chỉnh trang Hoàng thành Thăng Long để vua Lê ở đã đồng thời xây dựng phủ chúa riêng nằm ngay bên ngoài Hoàng thành. Phủ Chúa trở thành một cơ quan trung ương thời bấy giờ với những công trình kiến trúc xa hoa như lầu Ngũ Long (dùng để duyệt quân) nằm ở bờ Đông hồ Hoàn Kiếm, đình Tả Vọng trên đảo Ngọc Sơn. Năm 1728 Trịnh Giang cho đào hầm ở vị trí phía Nam hồ để xây dựng cung điện ngầm gọi là Thưởng Trì cung.
+
+        </p>
+        <p>Chúa Trịnh cho ngăn hồ lớn thành hồ Tả Vọng và Hữu Vọng. Hồ Hữu Vọng được dùng làm nơi duyệt quân thủy chiến của triều đình. Đến đời Tự Đức (1847-1883), hồ Hữu Vọng được gọi là hồ Thủy Quân, còn hồ Tả Vọng chính là hồ Hoàn Kiếm. Từ năm 1884, nhà nước bảo hộ Pháp cho lấp hồ Thủy Quân để xây dựng, mở mang Hà Nội.
+        </p>
+        <h2>Những điểm đến không thể bỏ qua ở hồ Hoàn Kiếm</h2>
+        <p>Đền Ngọc Sơn: Đền Ngọc Sơn là một trong những điểm đến không thể bỏ qua khi đến du lịch Hà Nội. Nằm trên một hòn đảo ở phía bắc của Hồ Hoàn Kiếm, đền Ngọc Sơn được nối với phần bờ bằng cây cầu Thê Húc sơn màu đỏ tươi nổi bật.
+
+          Đến đền Ngọc Sơn, du khách không chỉ được chiêm ngưỡng công trình kiến trúc tuyệt tác in hằn dấu vết thời gian đầy hoài cổ, ngắm nhìn toàn cảnh Hồ Gươm đẹp lung linh mà còn có cơ hội tìm hiểu về văn hóa cũng như các câu chuyện ít người biết gắn liền với lịch sử của đền.
+        </p>
+       <p>Xem thêm về Đền Ngọc Sơn <a href="denngocson.html">tại đây.</a></p> 
+      
+      <p>Cầu Thê Húc: Cùng với đền Ngọc Sơn, cầu Thê Húc là biểu tượng cho nét đẹp quyến rũ của hồ Hoàn Kiếm nói chung và thủ đô Hà Nội nói riêng. Với kiến trúc xây dựng độc đáo cùng nhiều giá trị văn hóa, lịch sử lâu đời, cầu Thê Húc đã trở thành điểm đến không thể bỏ qua của mỗi du khách khi đến du lịch Hà Nội.
+
+        Khi mới khởi công, cầu Thê Húc có thiết kế uốn cong hình con tôm, được làm bằng gỗ rất thô sơ và sơn màu đỏ - màu của sự sống, phồn vinh, thịnh vượng. Tương truyền cuối thế kỷ 19 cầu bị gãy và được xây mới với chân làm bằng xi măng cốt thép, sàn, lan can bằng gỗ và vẫn giữ lại màu đỏ đặc trưng.</p>
+      <p>Vườn hoa, tượng đài Lý Thái Tổ: Tượng đài Vua Lý Thái Tổ được đặt tại vườn hoa Lý Thái Tổ, đường Đinh Tiên Hoàng, quận Hoàn Kiếm, trung tâm thủ đô Hà Nội. Công trình này được xây dựng nhằm tưởng nhớ, tôn vinh nhằm tôn vua Lý Thái Tổ - người đặt nền móng xây dựng kinh thành Thăng Long.
+
+        Không chỉ là công trình kiến trúc mang giá trị lịch sử, vườn hoa và tượng đài Lý Thái Tổ còn là điểm đến yêu thích của người dân địa phương cũng như khách du lịch vào mỗi buổi chiều muộn.
+        
+        Sau khi tham quan các điểm đến trong di tích đền Ngọc Sơn, du khách có thể dạo bộ đến đây để ngắm nhìn cuộc sống bình yên của người dân thủ đô, để cảm nhận một Hà Nội rất khác so với hình ảnh đông đúc, xô bồ thường gặp.</p>
+        <P>Nhà hát Múa Rối Nước Thăng Long: Đây là một trong những nhà hát múa rối truyền thống vẫn còn hoạt động cho đến ngày nay và luôn mang đến cho khán giả những màn trình diễn đầy màu sắc nghệ thuật truyền thống ấn tượng.
+
+          Những màn trình diễn rối nước đặc sắc không chỉ được du khách và người dân địa phương yêu thích mà còn trở nên nổi tiếng khắp năm châu và tham dự nhiều liên hoan nghệ thuật trên toàn thế giới.</P>
+          
+        <P>Phố đi bộ hồ Gươm: Mặc dù chỉ mới chính thức hoạt động hơn 1 năm, song phố đi bộ quanh hồ Gươm đã trở thành điểm đến lý tưởng cho nhiều người dân thủ đô cũng như khách thập phương đến du lịch Hà Nội vào mỗi dịp cuối tuần.</P>
+      <h2> Phương tiện tham quan quanh Hồ Hoàn Kiếm</h2>
+      <p>
+        Để trải nghiệm chuyến du lịch quanh khu hồ Hoàn Kiếm một cách trọn vẹn nhất, các bạn có thể sử dụng một số loại phương tiện sau:
+        <ul>
+          <li>Xe máy: Là phương tiện nhỏ gọn, rất thích hợp cho những bạn du lịch cá nhân hay theo nhóm muốn tự mình khám phá khu vực hồ Hoàn Kiếm. Có rất nhiều địa điểm cho thuê xe máy ở Hà Nội để bạn lựa chọn.</li>
+          <li>Xích lô: Dạo phố bằng xích lô là một gợi ý tuyệt vời giúp du khách có thể thư thái ngắm nhìn cảnh quan xung quanh. Tuy nhiên để tránh tình trạng bị chặt chém, các bạn nên lựa chọn những hãng có tên tuổi, uy tín cũng như thương lượng trước với tài xế về giá cả.</li>
+          <li>Xe điện: Đây là loại phương tiện mới song được rất nhiều người ưa thích lựa chọn. Xe chạy qua nhiều tuyến phố cổ cũng như danh lam, di tích ở quanh khu vực hồ Gươm và phố cổ. Thời gian hoạt động của xe điện ban ngày từ 8h30 đến 16h30, còn buổi tối bắt đầu từ 19h đến 23h. Mỗi ô tô điện có thể chở được 8 người, chạy trong thời gian trung bình từ 35-60 phút/chuyến.</li>
+        </ul>
+      </p>
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link" href="dienbienphu.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="dinhdoclap.html">10</a></li>
+                        <li class="page-item"><a class="page-link" href="thienvien.html">11</a></li>
+                        <li class="page-item"><a class="page-link" href="hoguom.html">12</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="kiemlien.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>

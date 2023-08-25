@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyễn Tuấn Vũ - 2200008998</title>
+
+    <link href="../bootstrap-5.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+   
+   
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+    <link href="../css/sidebars.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <nav class="py-2 bg-body-tertiary hideable">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="../index.html" class="nav-link link-body-emphasis px-2" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="../html/dicover.html" class="nav-link link-body-emphasis px-2 active">Discover</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.back();">Trang Truớc</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" onclick="history.forward();">Trang Sau</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Login</a></li>
+          <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 disabled">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4"><img src="../assets/img/discover(2).png" width="30%"></span>
+        </a>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+    </header>
+    <nav class="py-2 bg-white">
+      <div class="container d-flex flex-wrap">
+        <div class="container d-flex flex-wrap">
+          <ul class="nav me-auto">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="dicover.html">Discorver</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cố đô Hoa Lư</li>
+          </ol>
+        </ul>
+        <ul class="nav">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">☰</button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">All Pages</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="list-unstyled ps-0">
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                   Discorvery
+                  </button>
+                  <div class="collapse show" id="home-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="../index.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Home</a></li>
+                      <li><a href="dicover.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dicover</a></li>
+                      <li><a href="about.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Abouts</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="mb-1">
+                  <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    Danh sách di tích
+                  </button>
+                  <div class="collapse" id="dashboard-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                      <li><a href="codohoalu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Hoa Lư</a></li>
+                      <li><a href="codohue.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Cố đô Huế</a></li>
+                      <li><a href="denhung.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Hùng</a></li>
+                      <li><a href="thanhnhaho.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thành nhà Hồ</a></li>
+                      <li><a href="chienkhutantrao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chiến khu Tân Trào</a></li>
+                      <li><a href="denphudong.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Phù Đổng</a></li>
+                      <li><a href="denngocson.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Ngọc Sơn</a></li>
+                      <li><a href="dentran.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Đền Trần</a></li>
+                      <li><a href="dienbienphu.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Điện Biên Phủ</a></li>
+                      <li><a href="dinhdoclap.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Dinh độc lập</a></li>
+                      <li><a href="thienvien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Thiền viện Trúc lâm Yên Tử</a></li>
+                      <li><a href="hoguom.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Hồ Gươm</a></li>
+                      <li><a href="kiemlien.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Khu di tích lịch sử Kim Liên</a></li>
+                      <li><a href="langchutich.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Lăng chủ tịch</a></li>
+                      <li><a href="chuaphominh.html"class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chùa Phổ Minh</a></li>
+                    </ul>
+                  </div>
+                </li>
+             
+               
+               
+              </ul>
+            </div>
+        </ul>
+        </nav>
+      </div>
+
+      </div>
+    </nav>
+    
+    
+
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#"><h3 class="display-3 " style="font-weight: bold;">Cố Đô Hoa Lư</h3></a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            
+        </div>
+      </header>
+    
+
+  
+
+  <main class="container">
+    
+  <img src="../assets/img/bannercodo.jpg" class="img-fluid" alt="...">
+
+ 
+
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4  border-bottom">
+        
+        
+       
+      </h3>
+
+      <article class="blog-post">
+        <h2 class="display-5 link-body-emphasis mb-1">Giới thiệu về Cố đô Hoa Lư </h2>
+        <p>Cố đô Hoa Lư là một quần thể kiến trúc đặc sắc ở tỉnh Ninh Bình, đã được UNESCO công nhận là một trong 4 vùng lõi thuộc quần thể di sản Thế giới Tràng An. Nơi đây cũng được nhà nước xếp hạng là quần thể kiến trúc, di tích lịch sử Quốc gia đặc biệt quan trọng, cần được hết sức gìn giữ.</p>
+        
+        <h2>Lịch sử Cố đô Hoa Lư</h2>
+        <p>Cố đô Hoa Lư là đế đô đầu tiên của nước ta, tồn tại trong 42 năm. Mảnh đất này là nơi đã chứng kiến sự nghiệp dựng nước và giữ nước oai hùng của 12 năm triều Đinh (968 – 980), 29 năm triều Tiền Lê (980 – 1009) và đầu nhà Lý (1009 – 1010).
+
+          Với địa thế đồi núi trùng điệp bao bọc xung quanh vành đai kinh đô như tấm bình phong vững chãi, cùng dòng Hoàng Long uốn khúc và cánh đồng Nho Quan, Gia Viễn với hào sâu, Hoa Lư là vùng đất có giá trị cao về mặt quân sự. Chính tại vùng đất này, năm 968, Đinh Bộ Lĩnh đã dẹp loạn 12 sứ quân, lên ngôi hoàng đế, lập ra nước Đại Cồ Việt oai hùng, và Hoa Lư trở thành trung tâm chính trị, đồng thời là đế đô đầu tiên của nước ta.
+          
+          Đến thời vua Lý Thái Tổ, ông đã đưa ra quyết định dời dô lịch sử, và Hoàng thành Thăng Long chính là nơi được lựa chọn khi nhận ra kinh đô Hoa Lư chật hẹp, khó mở mang thành đô và không phù hợp với vị thế đất nước lúc bấy giờ. 
+          
+          Chính quyết định mang tính chất lịch sử này đã kết thúc những tháng ngày Hoa Lư là vùng đất cố đô của nước ta. Tuy nhiên, hệ thống triều đình và cơ sở vật chất của Hoàng thành Thăng Long lúc bấy giờ đều thừa hưởng từ kinh đô Hoa Lư ngày trước. Tuy sau này các vua không sinh sống tại đây nữa, nhưng Cố đô Hoa Lư vẫn tiếp tục được xây dựng những công trình kiến trúc kiên cố với đền, chùa, đền thờ và được bảo tồn cho đến tận ngày nay.</p>
+        <h2>Kiến trúc khu quần thể Cố đô Hoa Lư</h2>
+        <p>Từ trong quá khứ, Hoa Lư đã là đế đô thật nguy nga, tráng lệ. Những núi đồi mọc lên trùng điệp xung quanh vòng đai kinh đô như bức tường thành vững chãi. Con sông Hoàng Long uốn khúc và cánh đồng Nho Quan, Gia Viễn mênh mông là hào sâu thiên nhiên vô cùng thuận lợi.
+        </p>
+        <p>
+        Toàn bộ khu di tích lịch sử  – văn hóa Cố đô Hoa Lư, bao gồm vùng bảo vệ đặc biệt, vùng đệm và các di tích như động Thiên Tôn, chùa Bái Đính, đều nằm trong hệ thống núi đá vôi ở trên địa bàn tỉnh Ninh Bình, trực thuộc xã Trường Yên, huyện Hoa Lư, giáp ranh giới hai huyện Gia Viễn và Hoa Lư. Nơi đây cách phía Nam thủ đô Hà Nội khoảng gần 100km.
+      </p>
+        <p>Cố đô Hoa Lư là một quần thể kiến trúc, và mỗi kiến trúc lại mang một nét riêng, tất cả làm nên vẻ cổ kính và hào hùng của di tích lịch sử thời xưa. Các dấu tích lịch sử vẫn còn lưu lại tại quần thể di tích rất đa dạng và phong phú, gồm các kiến trúc tường thành, hoàng thành, hang động, đền chùa, lăng mộ và nhiều loại công trình kiến trúc khác có giá trị lịch sử và văn hóa cao.
+        </p>
+        <h2>Khám phá di tích đền vua Đinh, đền vua Lê</h2>
+        <p>Đặc biệt nhất, tại đây vẫn còn hai di tích là đền vua Đinh và đền vua Lê. Đây là hai di tích được xây dựng vào khoảng thế kỷ 17 với nghệ thuật điêu khắc trên gỗ đá vô cùng kì công và đặc sắc. Con đường vào đền vua Đinh dẫn du khách đi dưới tán những hàng cây phượng vĩ ven đường.
+          </p>
+          <p>
+          Người ta gọi Hoa Lư là kinh thành đá và đền vua Đinh, vua Lê cũng sử dụng nhiều chất liệu từ đá. Ví dụ như khi bước vào sân đền, du khách sẽ thấy long sàn bằng đá tảng và hai con nghê chầu cũng được tạc bằng đá xanh nguyên khối. Vào hậu cung, du khách sẽ thấy tượng thờ vua Đinh được đúc bằng đồng đặt trên tảng đá xanh.
+          </p>
+          <p>
+          Đền vua Lê nằm cách đền vua Đinh 50m cũng cùng chung cấu trúc như thế. Cách đền vua Lê 200 m, là chùa Nhất Trụ, được xây từ đời vua Lê Đại Hành, trước cửa chùa có cột đá, cao 4,16 m hình tám cạnh, khắc bài kinh Lăng Nghiêm do nhà vua làm để dâng nhà Phật. Nằm ngay cạnh là khu di tích gắn liền với câu chuyện của công chúa thứ ba của vua Đinh Tiên Hoàng đã nhảy xuống giếng tự vẫn chứ không theo chồng phản tặc chống lại vua cha. Ngôi đền này thờ cô công chúa ấy.
+        </p>
+        <h2>Lễ hội truyền thống ở Cố Đô Hoa Lư</h2>
+        <p>Vào ngày 8/3 – 10/3 hàng năm là thời điểm diễn ra lễ hội truyền thống cố đô Hoa Lư nhằm tôn vinh các vị vua và anh hùng dân tộc đã xây dựng và phát triển nên kinh đô Hoa Lư, lập ra nhà nước Đại Cồ Việt vào thế kỉ X. Lễ hội Cố đô Hoa Lư bao gồm 2 phần: phần lễ và phần hội. Bên cạnh phần lễ thì phần hội với các trò chơi đậm nét truyền thống như đua thuyền, đấu vật, hát chèo… được diễn ra trong không khí vô cùng tưng bừng, náo nhiệt.</p>
+        <h2>Di chuyển đến Hoa Lư</h2>
+        <ul>
+          <li>Tàu hỏa: Giá vé tàu Hà Nội – Ninh Bình dao động từ 90.000 – hơn 200.000đ tùy từng tàu và loại ghế. 
+            Lưu ý khi mua vé tàu bạn không nên chọn những chuyến quá muộn có thể làm ảnh hưởng đến lịch trình của bạn.</li>
+          <li>Xe khách: Các bạn có thể bắt xe từ bến xe Giáp Bát hoặc Mỹ Đình để tới Ninh Bình với mức giá dao động từ 50.000đ – 60.000đ/người. Thời gian trung bình khoảng 1h30 phút. Nhớ dặn trước với phụ xe họ sẽ chỉ cho bạn.
+
+          </li>
+          <li>Xe máy: Nếu thích cảm giác vi vu bằng xe máy, bạn có thể xuất phát ở đường cao tốc Pháp Vân – Cầu Giẽ rồi tiếp tục đi theo hướng Cầu Giẽ – Phủ Lý – Ninh Bình với thời gian di chuyển khoảng từ 1h – 1h30′.</li>
+        </ul> 
+     
+      </article>
+   
+
+   
+    </div>
+
+    <div class="col-md-4">
+      <div class="position-sticky" style="top: 2rem;">
+        <div class="p-4 mb-3 bg-body-tertiary rounded">
+          <h4 class="fst-italic">Lưu ý</h4>
+          <p class="mb-0">Những thông tin cung cấp có thể có sai sót về mặt thời gian các sự kiện lịch sử tùy theo ghi chép,thông tin về di chuyển có thể khác thực tế.</p>
+        </div>
+
+        <div>
+          <h4 class="fst-italic">Liên quan đến di tích</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/codohue.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Cố Đô Huế</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"  style="background-image: url(../assets/img/denhung.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Đền Trân</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                <svg class="bd-placeholder-img" width="100%" height="96"  aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="background-image: url(../assets/img/hoguom.jpg);background-position: center;"></svg>
+                <div class="col-lg-8">
+                  <h6 class="mb-0">Hồ Gươm</h6>
+                  <small class="text-body-secondary">Ấn vào xem chi tiết >></small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+     
+
+</main>
+              <div class="position-relative my-5" >
+                <div class="position-absolute top-50 start-50 translate-middle">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                        <li class="page-item">
+                          <a class="page-link disabled" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="codohoalu.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="codohue.html">2</a></li>
+                        <li class="page-item"><a class="page-link" href="denhung.html">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="thanhnhaho.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+              </div>
+              <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center text-center border-bottom pb-3 mb-3">
+                    <li>Sản phầm được nghiên cứu và thực hiên bởi Nguyễn Tuấn Vũ</li>
+                
+                  </ul>
+                  <p class="text-center text-body-secondary"><img src="../assets/img/discover(2).png" width="30%"></p>
+                </footer>
+              </div>
+<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"  ;>
+  &#8593
+</button>
+<script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/myjs.js"></script>
+
+    </body>
+</html>
